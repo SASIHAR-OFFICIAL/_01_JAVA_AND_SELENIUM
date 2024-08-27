@@ -1,18 +1,15 @@
-package _J_21_Method_Overriding;
-//_Parthasarthy
+package _00_Java_IT_ST_Bringed;
+//                         IMPLEMENTS FOR MULTIPLE INHERITANCE
 interface Print{
 	void Print();
-	void display1();
+	//void display1();
 
-	void show();
-
-	void display();
-}
+	}
 interface Showable{  
 	void show();  
 }  
 
- class interclas implements Showable, Print{
+ class interclas implements Print, Showable {
 
 	public void print(){
 		int a=20,b=10,c;
@@ -37,23 +34,11 @@ interface Showable{
 		obj.Print();
 		obj.show();
 		obj.display1();
-
 	}
 
 	@Override
 	public void Print() {
 		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void display() {
-		// TODO Auto-generated method stub
 		
 	}
-
-	
-
-}
-
-
+	}

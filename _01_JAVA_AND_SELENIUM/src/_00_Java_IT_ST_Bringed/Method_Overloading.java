@@ -1,4 +1,4 @@
-package _J_20_Method_Overloading;
+package _00_Java_IT_ST_Bringed;
 
 class DisplayOverloading
 {
@@ -30,7 +30,7 @@ class DisplayOverloading
 		System.out.println(v);
 	}
 }
-public class moverload {
+public class Method_Overloading {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

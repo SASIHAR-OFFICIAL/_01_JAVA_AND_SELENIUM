@@ -1,6 +1,6 @@
-package _J_06_If_Conditions;
+package _00_Java_IT_ST_Bringed;
 
-public class _05_ifcondi_IT_ST {
+public class If_and_Switch {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int m=70;

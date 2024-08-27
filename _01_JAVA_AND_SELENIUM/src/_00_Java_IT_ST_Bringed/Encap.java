@@ -1,10 +1,10 @@
-package _J_29_Encapsulation;
+package _00_Java_IT_ST_Bringed;
 
-public class RunEncap {
+public class Encap {
 
 	
 		public static void main(String args[]) {
-		      EncapTest encap = new EncapTest();
+		      Encap encap = new Encap();
 		      encap.setName("James");
 		      encap.setAge(20);
 		      encap.setIdNum("12343ms");

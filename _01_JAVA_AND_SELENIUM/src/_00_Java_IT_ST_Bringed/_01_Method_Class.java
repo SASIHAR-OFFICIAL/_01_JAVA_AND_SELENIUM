@@ -1,4 +1,4 @@
-package _J_02_03_Method;
+package _00_Java_IT_ST_Bringed;
 
 public class _01_Method_Class {
 	 

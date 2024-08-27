@@ -1,6 +1,6 @@
-package _J_20_Method_Overloading;
+package _00_Java_IT_ST_Bringed;
 
-public class moverload_EncapTest {
+public class Encapsulation {
 	   private String name="Rijin";
 	   private String idNum;
 	   private int age;

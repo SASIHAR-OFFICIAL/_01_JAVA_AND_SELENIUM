@@ -1,6 +1,6 @@
-package _J_30_Expectation_Handling_Try;
+package _00_Java_IT_ST_Bringed;
 
-public class arthmeticexp {
+public class Exception_Handling {
 			 public static void main(String[] args) throws InterruptedException 
 		    { 
 		        int a = 10, b = 5, c = 5, result; 

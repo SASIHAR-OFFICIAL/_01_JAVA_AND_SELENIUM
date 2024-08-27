@@ -1,7 +1,7 @@
-package _J_12_String_Manipulation;
+package _00_Java_IT_ST_Bringed;
 
 
-public class _09_String_Strmun_IT_ST {
+public class String_Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

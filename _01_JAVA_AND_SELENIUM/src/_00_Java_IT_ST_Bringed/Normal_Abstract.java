@@ -1,11 +1,11 @@
-package _J_25_Abstract;
+package _00_Java_IT_ST_Bringed;
 
 
-	abstract class Base5 { 
+	abstract class Bas { 
 	    abstract void fun();
 	    void run() {System.out.println("Base run() called");}
 	} 
-	class Derived extends Base5 { 
+	class Derived extends Bas { 
 	    void fun() { System.out.println("Derived fun() called"); } 
 	} 
 	class classtoinherit { 

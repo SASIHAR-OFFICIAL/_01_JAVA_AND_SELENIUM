@@ -1,6 +1,6 @@
-package _J_05_Do_While_Loop;
+package _00_Java_IT_ST_Bringed;
 
-public class _06_forloop_Parthasarthy {
+public class Array_with_Loop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

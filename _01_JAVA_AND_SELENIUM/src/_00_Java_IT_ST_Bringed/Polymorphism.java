@@ -1,6 +1,6 @@
-package _J_24_Polymorphism;
+package _00_Java_IT_ST_Bringed;
 
-public class objmulti {
+public class Polymorphism {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-package _00_Java_IT;
+package _00_Java_IT_Sasi_Notes;
 
 public class _00_For {
 

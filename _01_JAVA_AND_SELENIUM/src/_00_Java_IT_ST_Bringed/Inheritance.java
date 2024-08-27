@@ -1,10 +1,10 @@
-package _J_22_Inheritance;
+package _00_Java_IT_ST_Bringed;
 
-public class Inheritance_inc extends tech{
+public class Inheritance extends tech{
 	   public static void main(String args[]){
 	//tech v=new tech();//While create object for SubClass which cannot call main class method
 	
-		   Inheritance_inc v = new Inheritance_inc();
+		   Inheritance v = new Inheritance();
 	v.sub();
 	v.add();
 
