@@ -1,8 +1,8 @@
-package _J_02_06_Return_Function_Payilagam;
+package _00_Java_EMC;
 
 import java.util.Scanner;
 
-public class _03_Late_EMC {
+public class _06_Return_Late_EMC {
 	String Timing (int time) {
 		if (time >=9) {
 			return "permission";
@@ -17,7 +17,7 @@ public class _03_Late_EMC {
 		System.out.println("Moring_Punch_Time = ");
 		int Moring_Punch_Time = scan.nextInt();
 		
-		_03_Late_EMC object = new _03_Late_EMC();
+		_06_Return_Late_EMC object = new _06_Return_Late_EMC();
 		String timing_Enter = object.Timing(Moring_Punch_Time);
 		System.out.print(timing_Enter);
 

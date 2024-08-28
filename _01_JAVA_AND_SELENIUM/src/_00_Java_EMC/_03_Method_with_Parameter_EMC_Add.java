@@ -1,6 +1,6 @@
-package _J_02_03_Method;
+package _00_Java_EMC;
 
-public class _08_Method_with_Parameter_EMC_Add {
+public class _03_Method_with_Parameter_EMC_Add {
 	
 	void sum(int Num1,int Num2 ) {
 		
@@ -11,9 +11,9 @@ public class _08_Method_with_Parameter_EMC_Add {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	
 		
-		_08_Method_with_Parameter_EMC_Add Get_add_Output = new _08_Method_with_Parameter_EMC_Add();
+		_03_Method_with_Parameter_EMC_Add Get_add_Output = new _03_Method_with_Parameter_EMC_Add();
+		
 		Get_add_Output.sum(15,25); 
 	}
 

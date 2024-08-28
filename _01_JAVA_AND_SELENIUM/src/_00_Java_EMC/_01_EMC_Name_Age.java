@@ -1,8 +1,8 @@
-package _J_02_02_Add_Sub_Mul_Div_Return_Addition;
+package _00_Java_EMC;
 
 import java.util.Scanner;
 
-public class _03_01_EMC_Name_Age {
+public class _01_EMC_Name_Age {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

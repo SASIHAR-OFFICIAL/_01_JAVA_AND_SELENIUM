@@ -1,8 +1,8 @@
-package _J_02_06_Return_Function_Payilagam;
+package _00_Java_EMC;
 
 import java.util.Scanner;
 
-public class _02_SCHOOL2_EMC {
+public class _05_Return_SCHOOL2_EMC {
 
 	String Pass_or_Fail(int score) {
 
@@ -18,7 +18,7 @@ public class _02_SCHOOL2_EMC {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter Total Mark = ");
 		int mark = scan.nextInt();
-		_02_SCHOOL2_EMC obj = new _02_SCHOOL2_EMC();
+		_05_Return_SCHOOL2_EMC obj = new _05_Return_SCHOOL2_EMC();
 
 		String result = obj.Pass_or_Fail(mark);
 		System.out.println(result);
