@@ -1,6 +1,6 @@
-package _J_20_Method_Overloading;
+package _J_02_06_05_Method_Overloading_POLYMORPHISM;
 
-public class Method_Overloading {
+public class _01_Method_Overloading {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
