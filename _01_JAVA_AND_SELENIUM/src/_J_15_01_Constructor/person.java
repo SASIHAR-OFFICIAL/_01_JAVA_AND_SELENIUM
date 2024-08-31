@@ -2,8 +2,8 @@ package _J_15_01_Constructor;
 
 public class person {
 
-	int Marks;
-	String Name;
+	int Marks = 75;
+	String Name = "Sasi";
 	
 	person()  // <--- Constructor initialize default like this when we create object like below person person_object = new person();
 	{

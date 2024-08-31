@@ -1,4 +1,4 @@
-package _J_02_06_04_Access_Modifier;
+package _J_02_06_04_Access_Modifier_Public_and_Private;
 
 public class UTI_bank {
 
