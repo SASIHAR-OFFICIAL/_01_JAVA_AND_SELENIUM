@@ -1,0 +1,43 @@
+package _S_02_LAO_BASIC;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class _03_Edit_Box_02_LAO_Basic {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.geko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		WebDriver F = new FirefoxDriver();
+		F.manage().window().maximize();
+		Thread.sleep(2500);
+
+		F.get("https://www.leafground.com/input.xhtml");
+		Thread.sleep(2500);
+
+		WebElement Type_name =F.findElement(By.name("j_idt88:name"));
+		Type_name.sendKeys("Coimbatore Smart City");
+		Thread.sleep(2500);
+
+		WebElement ClearText = F.findElement(By.name("j_idt88:j_idt91"));
+		ClearText.clear();
+		
+		boolean STATUS = F.findElement(By.name("j_idt88:j_idt93")).isEnabled();
+		System.out.println(STATUS);
+		Thread.sleep(2500);
+
+		WebElement TypeSomething = F.findElement(By.name("j_idt88:j_idt91"));
+		TypeSomething.sendKeys(" Silk People Gandhipuram");
+		Thread.sleep(2500);
+
+		WebElement clear =F.findElement(By.name("j_idt88:j_idt95"));
+		clear.clear();
+		Thread.sleep(2500);
+
+		String data = F.findElement(By.name("j_idt88:j_idt97")).getAttribute("value");
+		System.out.println(data);
+		}
+
+}
