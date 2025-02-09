@@ -1,4 +1,4 @@
-package _10_J_Access_Modifier_Public_and_Private;
+package _10_J_Encapsulation;
 
 public class UTI_Customer {
 
