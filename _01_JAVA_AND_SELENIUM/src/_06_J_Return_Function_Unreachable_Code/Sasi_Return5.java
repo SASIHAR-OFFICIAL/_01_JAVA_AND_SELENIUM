@@ -14,7 +14,7 @@ public class Sasi_Return5 {
 		int c =a+b;
 		System.out.println("void add = "+c);
 		return c;
-		System.out.println();
+		
 		}
 
 }
