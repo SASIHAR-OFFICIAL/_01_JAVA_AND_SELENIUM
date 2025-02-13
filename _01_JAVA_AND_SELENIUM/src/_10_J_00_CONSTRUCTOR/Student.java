@@ -8,8 +8,6 @@ public class Student {
 		Student Student_obj = new Student();
 		System.out.println(Student_obj.Mark);
 		System.out.println(Student_obj.Name);
-
-		
 	}
 
 }
