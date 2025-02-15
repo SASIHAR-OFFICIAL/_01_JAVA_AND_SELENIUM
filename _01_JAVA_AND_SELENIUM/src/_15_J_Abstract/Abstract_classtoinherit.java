@@ -1,4 +1,4 @@
-package _J_25_Abstract;
+package _15_J_Abstract;
 	abstract class Base {
 		
 	    abstract void fun();

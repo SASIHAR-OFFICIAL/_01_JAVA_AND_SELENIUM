@@ -1,4 +1,4 @@
-package _11_J_01_Inheritance;
+package _11_J1_INHERITANCE_Single;
 
 
 
