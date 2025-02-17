@@ -1,4 +1,4 @@
-package _J_02_Scanner_User_Input;
+package _01_J_Scanner_User_Input;
 
 import java.util.Scanner;
 

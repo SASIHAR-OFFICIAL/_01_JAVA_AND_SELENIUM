@@ -1,7 +1,6 @@
-package _J_13_Array;
+package _17_J_Array;
 
-public class _09_Testarray_Others {
-
+public class _02_Test_Array_Sasi {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

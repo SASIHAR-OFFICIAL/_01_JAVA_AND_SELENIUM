@@ -1,4 +1,4 @@
-package _J_18_Void_Method_Call_By_Object;
+package _01_J_Static_Method_Direct_Call_Functionality;
 
 public class _Create_New {
 
