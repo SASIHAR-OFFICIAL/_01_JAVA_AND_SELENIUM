@@ -2,7 +2,7 @@ package _19_If_Else_If;
 
 import java.util.Scanner;
 
-public class Divisible_by_3 {
+public class Divisible_by_3_AND_5 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

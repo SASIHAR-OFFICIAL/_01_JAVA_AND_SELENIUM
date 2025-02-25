@@ -2,7 +2,7 @@ package _21_For_Loop;
 
 import java.util.Iterator;
 
-public class For1 {
+public class Print_Numbers_1_to_5 {
 
 	public static void main(String[] args) {
 
