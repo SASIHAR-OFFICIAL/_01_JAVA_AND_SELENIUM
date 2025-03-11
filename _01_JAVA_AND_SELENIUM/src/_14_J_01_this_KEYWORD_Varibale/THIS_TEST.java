@@ -14,9 +14,7 @@ public class THIS_TEST {
 
 
 	private void Bus_No(int bus) {
-		this.bus = bus;
+		this.bus = bus;            // method bus value is assigned to int bus above  variable declaration
 		
 	}
-
-
 }
