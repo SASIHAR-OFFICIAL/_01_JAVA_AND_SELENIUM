@@ -1,4 +1,4 @@
-package _JC_42_Array_List;
+package _JC_04_Array_List;
    
 import java.util.ArrayList;
 

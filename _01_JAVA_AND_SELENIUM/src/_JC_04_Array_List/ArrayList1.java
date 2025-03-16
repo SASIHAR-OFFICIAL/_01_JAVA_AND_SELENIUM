@@ -1,4 +1,4 @@
-package _JC_42_Array_List;
+package _JC_04_Array_List;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,15 +22,15 @@ public class ArrayList1 {
 		System.out.println(AL1.get(2));
 		AL1.remove("19");
 		System.out.println(AL1);
-		AL1.set(4, "61");
+		AL1.set(4, "61"); // REPLACE PARTICULAR INDEX OBJECT . here 16 replaced by 61
 		System.out.println(AL1);
 
 		System.out.println(	AL1.indexOf("s;asi"));
 		//-------------------------------------------
 		ArrayList AL2 = new ArrayList();
-		AL2.addAll(AL1);
+		AL2.addAll(AL1);    // adds all AL1 objects to AL2
 		System.out.println(AL2);
-		List AL3 = AL2.subList(0, 3);
+		List AL3 = AL2.subList(0, 3); // Adds AL2 0 TO 3 TO new list AL3
 		System.out.println(AL3);
 
 	}
