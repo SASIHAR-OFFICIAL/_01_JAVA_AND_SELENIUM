@@ -1,4 +1,4 @@
-package _JC_46_Queue;
+package _JC_07_Queue;
 
 public class _Create_New {
 

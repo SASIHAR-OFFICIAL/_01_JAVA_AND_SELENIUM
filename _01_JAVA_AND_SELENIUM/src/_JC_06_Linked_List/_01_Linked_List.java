@@ -1,4 +1,4 @@
-package _JC_07_Linked_List;
+package _JC_06_Linked_List;
 
 import java.util.LinkedList;
 
