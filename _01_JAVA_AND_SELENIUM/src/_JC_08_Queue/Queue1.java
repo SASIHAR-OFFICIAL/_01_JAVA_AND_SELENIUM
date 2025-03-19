@@ -1,4 +1,4 @@
-package _JC_07_Queue;
+package _JC_08_Queue;
 
 import java.util.LinkedList;
 import java.util.PriorityQueue;

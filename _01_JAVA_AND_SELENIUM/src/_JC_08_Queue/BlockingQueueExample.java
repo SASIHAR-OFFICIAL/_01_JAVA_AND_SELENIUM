@@ -1,4 +1,4 @@
-package _JC_07_Queue;
+package _JC_08_Queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -13,6 +13,8 @@ public class BlockingQueueExample {
         
         System.out.println("BlockingQueue: " + bq);
         
+        System.out.println("Removed: " + bq.take());
+        System.out.println("BlockingQueue after removal: " + bq);
         System.out.println("Removed: " + bq.take());
         System.out.println("BlockingQueue after removal: " + bq);
     }

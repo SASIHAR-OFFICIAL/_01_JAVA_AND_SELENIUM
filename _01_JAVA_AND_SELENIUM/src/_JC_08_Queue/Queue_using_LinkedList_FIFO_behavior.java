@@ -1,4 +1,4 @@
-package _JC_07_Queue;
+package _JC_08_Queue;
 
 
 
@@ -13,5 +13,7 @@ package _JC_07_Queue;
 	        
 	        System.out.println(queue.poll()); // 10 (FIFO)
 	        System.out.println(queue.poll()); // 20
+	        System.out.println(queue.poll()); 
+	        System.out.println(queue.poll()); // Shows null because of iterator cannot find fourth object
 	    }
 	}

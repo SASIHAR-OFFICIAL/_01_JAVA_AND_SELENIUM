@@ -1,4 +1,4 @@
-package _JC_07_Queue;
+package _JC_08_Queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -10,6 +10,9 @@ public class PriorityQueueExample {
         pq.offer(30);
         pq.offer(10);
         pq.offer(20);
+        pq.offer(30);
+        pq.offer(150);
+        
 
         System.out.println("PriorityQueue: " + pq);
         
