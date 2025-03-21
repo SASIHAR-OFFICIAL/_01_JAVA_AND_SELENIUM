@@ -31,11 +31,6 @@
 	<classpathentry kind="lib" path="C:/WebDriver/jar_files/webdrivermanager-5.8.0.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/Junit/junit-4.13.2-sources.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/jxl jar/jxl-2.6.9.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/WebDriver/selenium-java-4.29.0/auto-service-annotations-1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/selenium-java-4.29.0/auto-service-annotations-1.1.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/selenium-java-4.29.0/byte-buddy-1.15.11.jar"/>
@@ -170,5 +165,6 @@
 	<classpathentry kind="lib" path="C:/WebDriver/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-tests.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-test-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
