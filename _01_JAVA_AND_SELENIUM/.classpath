@@ -165,6 +165,6 @@
 	<classpathentry kind="lib" path="C:/WebDriver/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-tests.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-test-sources.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-24"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

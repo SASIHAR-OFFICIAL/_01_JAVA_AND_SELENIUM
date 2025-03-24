@@ -1,4 +1,4 @@
-package _JC_36_Hasing;
+package _JC_11_Hasing;
 
 public class _Create_New {
 
