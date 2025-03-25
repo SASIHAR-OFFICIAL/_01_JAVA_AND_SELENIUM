@@ -1,6 +1,9 @@
-package _JC_11_Hasing;
+package _JC_55_Hasing;
 
 import java.util.HashSet;
+import java.util.*;
+
+
 public class HashSetExample {
 
 	public static void main(String[] args) {

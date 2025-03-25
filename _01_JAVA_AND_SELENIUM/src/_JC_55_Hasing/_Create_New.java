@@ -1,4 +1,4 @@
-package _JC_52_01_Tree_Set_Sorted_Set;
+package _JC_55_Hasing;
 
 public class _Create_New {
 
