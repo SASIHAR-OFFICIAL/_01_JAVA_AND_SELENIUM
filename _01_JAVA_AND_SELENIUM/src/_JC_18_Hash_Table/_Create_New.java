@@ -1,4 +1,4 @@
-package _JC_39_Hash_Map;
+package _JC_18_Hash_Table;
 
 public class _Create_New {
 
