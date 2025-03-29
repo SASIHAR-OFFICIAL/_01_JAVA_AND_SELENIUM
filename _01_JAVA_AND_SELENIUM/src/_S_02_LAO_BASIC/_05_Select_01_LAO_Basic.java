@@ -12,7 +12,7 @@ public class _05_Select_01_LAO_Basic {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver F = new FirefoxDriver();
 		F.manage().window().maximize();
 		F.get("https://www.leafground.com/select.xhtml");
@@ -42,7 +42,4 @@ Box2Select.selectByVisibleText("JMeter");
 	List<WebElement> Total_Options = Box_Right_Side_options.getOptions();
 	int sizeofBox = Total_Options.size();
 	System.out.println("Total_Options is = "+sizeofBox);*/
-	
-	}
-
-}
+	}}
