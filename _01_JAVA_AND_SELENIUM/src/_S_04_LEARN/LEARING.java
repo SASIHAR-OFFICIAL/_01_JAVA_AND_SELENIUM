@@ -12,6 +12,7 @@ public class LEARING {
 	public static void main(String[] args) {
 		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
+		d.navigate().to("https://ttdconline.com/index.jsp");
 		List<WebElement> links = d.findElements(By.tagName("a"));
 		for (WebElement link : links) {
 		    System.out.println(link.getText());
