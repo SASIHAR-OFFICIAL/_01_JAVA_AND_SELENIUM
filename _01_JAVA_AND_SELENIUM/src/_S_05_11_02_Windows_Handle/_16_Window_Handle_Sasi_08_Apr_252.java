@@ -3,11 +3,9 @@ package _S_05_11_02_Windows_Handle;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class _16_Window_Handle_Sasi_08_Apr_252 {
@@ -31,12 +29,12 @@ public class _16_Window_Handle_Sasi_08_Apr_252 {
 
 		// CLOSE SECOND WINDOW
 
-		Set<String> Second_Window = d.getWindowHandles();  // Name the String All_2_window it includes First_window & Second_Window
-		for (String All_2_window : Second_Window) {
-			d.switchTo().window(All_2_window);		// Switch Drive d to All_2_window
-			if (!All_2_window.equals(First_window)) {  // The Windows which are all in All_2_window not equals First_window it will be closed
-				d.close();
-			}
+//		Set<String> Second_Window = d.getWindowHandles();  // Name the String All_2_window it includes First_window & Second_Window
+//		for (String All_2_window : Second_Window) {
+//			d.switchTo().window(All_2_window);		// Switch Drive d to All_2_window
+//			if (!All_2_window.equals(First_window)) {  // The Windows which are all in All_2_window not equals First_window it will be closed
+//				d.close();
+//			}
 			//d.uninstallExtension(ExtensionID);
 			d.navigate().to("https://www.hyrtutorials.com/p/window-handles-practice.html");
 			System.out.println("MAINPAGE");
@@ -78,8 +76,15 @@ public class _16_Window_Handle_Sasi_08_Apr_252 {
 
 			d.switchTo().window(First_window);
 			System.out.println("after 5 tabs opens main page");
-			Thread.sleep(10000);
-			d.quit();
+			//Thread.sleep(10000);
+						
+			for (String AllWindows : new_Window_5) {
+				if (AllWindows.equals(First_window)) {
+					Thread.sleep(3000);
+					d.close();
+				}
+				Thread.sleep(3000);
+				d.quit();
+			}
 
-		}			}	
-}
+		}}	
