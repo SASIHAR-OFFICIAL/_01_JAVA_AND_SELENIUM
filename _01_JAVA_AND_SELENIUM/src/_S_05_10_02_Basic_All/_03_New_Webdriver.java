@@ -23,7 +23,8 @@ public class _03_New_Webdriver {
 
 		//INSTALL ADBLOCK PLUS
 
-		Path Path_for_Adblock = Paths.get("C:\\WebDriver\\geckodriver\\adblock_plus-4.0.xpi");
+		//Path Path_for_Adblock = Paths.get("C:\\WebDriver\\geckodriver\\adblock_plus-4.0.xpi");
+		Path Path_for_Adblock = Paths.get("C:\\WebDriver\\Adblock\\adblock_plus-4.18.0.xpi");
 		String ExtensionID = d.installExtension(Path_for_Adblock);
 		Thread.sleep(5000);
 
