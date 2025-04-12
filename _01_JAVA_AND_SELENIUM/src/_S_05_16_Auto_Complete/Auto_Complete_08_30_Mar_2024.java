@@ -19,10 +19,11 @@ public class Auto_Complete_08_30_Mar_2024 {
 		Query_Box.sendKeys("P");
 		
 		List<WebElement> Query_Box_List = d.findElements(By.xpath("//*[@id=\"myInput\"]"));
+		                                                             //*[@id="myInput"]
 		for (WebElement We_want : Query_Box_List) {
 			if (We_want.getText().equals("pizza")) {
-				Thread.sleep(3000);
-				We_want.click();				
+				Thread.sleep(1000);
+				We_want.click();	
 			}
 			}
 			

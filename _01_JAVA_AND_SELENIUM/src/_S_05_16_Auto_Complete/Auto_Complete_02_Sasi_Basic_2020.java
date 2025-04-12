@@ -14,16 +14,21 @@ public class Auto_Complete_02_Sasi_Basic_2020 {
 		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d=new FirefoxDriver();
 		d.get("https://www.google.co.in/");
+		Thread.sleep(3000);
+//		WebElement Stay_signed_out = d.findElement(By.xpath("//button[text()='Stay signed out']"));
+//		Stay_signed_out.click();
+		
 		WebElement google = d.findElement(By.xpath("//*[@id=\"APjFqb\"]"));
-		google.sendKeys("c");
+		google.click();
+		google.sendKeys("cri");
 		Thread.sleep(3000);
 		List<WebElement> optionsList=d.findElements(By.xpath("//*[@id=\"APjFqb\"]"));
 		for (WebElement otionsInList : optionsList) {
 			if(otionsInList.getText().equals("cricket")) {
 				Thread.sleep(3000);
 				otionsInList.click();
+				break;
 			}
-	
-}
-	}
-}
+			Thread.sleep(3000);
+			d.quit();
+			}}}
