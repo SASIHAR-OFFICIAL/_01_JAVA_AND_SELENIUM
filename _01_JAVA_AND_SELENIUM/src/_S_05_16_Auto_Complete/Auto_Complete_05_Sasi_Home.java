@@ -18,7 +18,7 @@ public class Auto_Complete_05_Sasi_Home {
 		Search_Box_Location.sendKeys("IND");
 		Thread.sleep(3000);
 
-		List<WebElement> Search_Box_Elements = driver.findElements(By.xpath("//*[@id=\"searchbox\"]"));
+		List<WebElement> Search_Box_Elements = driver.findElements(By.xpath("//*[@id=\"ui-id-1\"]/li"));
 		for (WebElement All_Elements_Stored : Search_Box_Elements)
 		{
 			if (All_Elements_Stored.getText().equals("India")) {

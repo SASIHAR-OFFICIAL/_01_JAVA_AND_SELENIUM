@@ -22,13 +22,22 @@ public class Auto_Complete_02_Sasi_Basic_2020 {
 		google.click();
 		google.sendKeys("cri");
 		Thread.sleep(3000);
-		List<WebElement> optionsList=d.findElements(By.xpath("//*[@id=\"APjFqb\"]"));
-		for (WebElement otionsInList : optionsList) {
-			if(otionsInList.getText().equals("cricket")) {
-				Thread.sleep(3000);
-				otionsInList.click();
-				break;
-			}
+		List<WebElement> optionsList=d.findElements(By.xpath("//ul[@role='listbox']/li"));
+		System.out.println("located");
+		for (WebElement webElement : optionsList) {
 			Thread.sleep(3000);
-			d.quit();
+			if(webElement.getText().equals("cricket")) {
+				webElement.click();
+		}
+		
+//		for (WebElement otionsInList : optionsList) {
+//			if(otionsInList.getText().equals("cricket")) {
+//				System.out.println("waiting");
+//				Thread.sleep(3000);
+//				otionsInList.click();
+//				System.out.println("clicked");
+//				break;
+//			}
+			Thread.sleep(3000);
+			//d.quit();
 			}}}

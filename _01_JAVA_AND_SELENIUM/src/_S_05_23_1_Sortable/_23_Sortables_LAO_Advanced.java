@@ -12,7 +12,7 @@ public class _23_Sortables_LAO_Advanced {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
+		System.setProperty("Webdriver.Chrome.Driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("http://www.leafground.com/pages/sortable.html");

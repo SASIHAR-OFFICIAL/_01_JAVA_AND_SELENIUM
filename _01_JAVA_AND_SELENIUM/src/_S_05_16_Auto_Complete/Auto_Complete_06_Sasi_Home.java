@@ -18,12 +18,12 @@ public class Auto_Complete_06_Sasi_Home {
 
 		WebElement Search_box = D.findElement(By.xpath("//*[@id=\"heroSectionDesktop-skillsAutoComplete--input\"]"));
 		Search_box.sendKeys("SEL");
+		Thread.sleep(3000);
 		
-		
-		List<WebElement> SE_home_autocomplete = D.findElements(By.xpath("//*[@id=\"SE_home_autocomplete\"]"));
-
+		List<WebElement> SE_home_autocomplete = D.findElements(By.xpath("/html/body/section/div[1]/div/div/div/div[1]/div/form/div/div[1]/div/div[5]/ul/li"));
+		Thread.sleep(3000);
 	for (WebElement All : SE_home_autocomplete) {
-		if (All.getText().contains("Selenium in Skill")) {
+		if (All.getText().contains("Selenium")) {
 			Thread.sleep(3000);
 			All.click();
 			

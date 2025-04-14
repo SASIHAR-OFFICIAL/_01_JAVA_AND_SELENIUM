@@ -21,7 +21,7 @@ Search_Box_Location.sendKeys("I");
 Thread.sleep(3000);
 
 
-List<WebElement> Search_Box_Elements = driver.findElements(By.xpath("//*[@id=\"searchbox\"]"));
+List<WebElement> Search_Box_Elements = driver.findElements(By.xpath("//ul[@tabindex='0']/li"));
 for (WebElement All_Elements_Stored : Search_Box_Elements)
 {
 if (All_Elements_Stored.getText().equals("India")) {

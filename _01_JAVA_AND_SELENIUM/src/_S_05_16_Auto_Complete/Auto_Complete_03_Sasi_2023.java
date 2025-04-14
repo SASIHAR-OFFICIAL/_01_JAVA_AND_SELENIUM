@@ -22,7 +22,7 @@ public class Auto_Complete_03_Sasi_2023 {
 	WebElement Box = F.findElement(By.xpath("//*[@id=\"search\"]"));
 	Box.sendKeys("a");
 
-List<WebElement> Search_Box = F.findElements(By.xpath("//*[@id=\"search\"]/li"));
+List<WebElement> Search_Box = F.findElements(By.xpath("//ul[@tabindex='0']/li"));
 											
 int Search_Box_size = Search_Box.size();
 System.out.println("Search_Box_size = "+Search_Box_size);
