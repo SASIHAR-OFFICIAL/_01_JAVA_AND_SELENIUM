@@ -6,9 +6,11 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
+import java.util.concurrent.ConcurrentHashMap.KeySetView;
 
 import org.bouncycastle.oer.its.ieee1609dot2.VerificationKeyIndicator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -24,9 +26,10 @@ public class Upload_Robot_14_APRIL_25 {
 
 		WebElement Upload_button = d.findElement(By.xpath("//input[@id='fileInput'][@class='form-control']"));
 		Thread.sleep(3000);
+		Upload_button.click();
 		
-		Actions Action_click  = new Actions(d);
-		Action_click.clickAndHold(Upload_button);
+//		Actions Action_click  = new Actions(d);
+//		Action_click.clickAndHold(Upload_button);
 		
 //		Robot Robot_obj1 = new Robot();
 //		Robot_obj1.keyPress(KeyEvent.VK_ENTER);
