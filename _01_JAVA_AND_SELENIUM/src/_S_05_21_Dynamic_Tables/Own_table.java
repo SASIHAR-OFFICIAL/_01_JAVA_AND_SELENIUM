@@ -18,9 +18,9 @@ WebDriver d = new FirefoxDriver();
 //		File File_table = new File("D:\\SELENIUM FILE CREATED BY SASI\\table.htm");
 //		Desktop Desktop_Obj = Desktop.getDesktop();
 //		Desktop_Obj.open(File_table);
-		d.navigate().to("D:\\SELENIUM FILE CREATED BY SASI\\table.htm");
+		d.navigate().to("C:\\WebDriver\\SELENIUM FILE CREATED BY SASI\\table.htm");
 		
-		List<WebElement> th = d.findElements(By.xpath("//table/tbody/tr"));
+		List<WebElement> th = d.findElements(By.xpath("//table/tbody/th"));
 		System.out.println("Total Coloumn = "+th.size());
 		
 		List<WebElement> tr = d.findElements(By.tagName("tr"));
