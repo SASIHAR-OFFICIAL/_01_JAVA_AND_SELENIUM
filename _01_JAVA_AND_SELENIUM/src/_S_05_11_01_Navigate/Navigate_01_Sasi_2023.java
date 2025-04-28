@@ -34,20 +34,17 @@ public class Navigate_01_Sasi_2023{
 		WebElement box = driver.findElement(By.xpath("/html/body/div/div/div/table[2]/tbody/tr[2]/td/table/tbody/tr[1]/td"));
 		String Box_color = box.getCssValue("background-color");
 		System.out.println("Box_color"+Box_color);
-
 		
 		Rectangle Box_size = box.getRect();
 		int height = Box_size.getHeight();
 		int width = Box_size.getWidth();
-				System.out.println("Height ="+height+ "\n"+ "Width = "+width);
-				
+		System.out.println("Height ="+height+ "\n"+ "Width = "+width);
+
 		Dimension Box_size2 = box.getSize();
 		int height2 = Box_size.getHeight();
 		int width2 = Box_size.getWidth();
 		System.out.println("Height2 ="+height2+ "\n"+ "Width2 = "+width2);
-		
+
 		driver.close();
 
-	}
-
-}
+	}}
