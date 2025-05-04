@@ -8,11 +8,11 @@ public class _01_Name_Age {
 		// TODO Auto-generated method stub
 
 		Scanner scan = new Scanner(System.in);
-		String Name = scan.nextLine();
+		String Name1 = scan.nextLine();
 		int Age = scan.nextInt();
 		scan.nextLine(); // TO BREAK A INTEGER INPUT BECAUSE AFTER INTEGER INPUT THE STRING WILL NOT ACCEPTED
 		String Address = scan.nextLine();
-		System.out.println("Name = "+Name);
+		System.out.println("Name = "+Name1);
 		System.out.println("Age = "+Age);
 		System.out.println("Address = "+Address);
 	}}

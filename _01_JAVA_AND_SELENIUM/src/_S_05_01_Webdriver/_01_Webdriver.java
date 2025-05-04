@@ -11,6 +11,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chro
 //Start a new instance of Google Chrome
 WebDriver chromeDriver = new ChromeDriver();
 
+
 //close the Chrome instance
 chromeDriver.quit();
 

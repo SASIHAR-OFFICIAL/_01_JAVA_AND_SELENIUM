@@ -1,5 +1,7 @@
 package _S_05_07_01_Drop_Down_Select;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,7 +18,9 @@ public class Drop_Down_Select_01_Sasi_Basic_2020 {
 		
 		WebElement dropdown1=d.findElement(By.id("dropdown1"));
 		Select select1 = new Select(dropdown1);
+		List<WebElement> options = select1.getOptions();
 		select1.selectByIndex(1);
+	
 
 		WebElement dropdown2=d.findElement(By.xpath("/html/body/div/div/div[3]/section/div[2]/select"));
 		Select select2=new Select(dropdown2);
@@ -25,5 +29,11 @@ public class Drop_Down_Select_01_Sasi_Basic_2020 {
 		WebElement dropdown3=d.findElement(By.id("dropdown3"));
 		Select select3=new Select(dropdown3);
 		select3.selectByValue("3");
+		
+		WebElement firstSelectedOption = select3.getFirstSelectedOption();
+		boolean multiple = select3.isMultiple();
+		List<WebElement> allSelectedOptions = select3.getAllSelectedOptions();
+		System.out.println("Select 3 is multiple ="+multiple);
+		
 		
 	}}
