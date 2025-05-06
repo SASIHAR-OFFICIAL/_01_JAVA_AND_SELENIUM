@@ -41,9 +41,11 @@ public class _17_Window_Handle_Sasi_04_May_25 {
 
 		int size = windowHandles.size();
 		System.out.println("size ="+size);
+		
 		List<String> Multi_Win = new ArrayList<>();
-		for (String string : Multi_Win) {
-			d.switchTo().newWindow(string.indexOf(size));
+		for (String string : windowHandles) {
+			d.switchTo().window(string);
+			String title = d.getTitle();
 			System.out.println("title ="+title);
 		}
-		}	}
+	}	}
