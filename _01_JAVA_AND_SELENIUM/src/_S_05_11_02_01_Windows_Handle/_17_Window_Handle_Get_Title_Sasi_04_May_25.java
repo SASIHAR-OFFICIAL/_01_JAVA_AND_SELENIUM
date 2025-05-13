@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class _17_Window_Handle_Sasi_04_May_25 {
+public class _17_Window_Handle_Get_Title_Sasi_04_May_25 {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
