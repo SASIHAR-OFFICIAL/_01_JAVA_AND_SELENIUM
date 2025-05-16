@@ -28,7 +28,9 @@ public class Windows_Handle_01_14_May_25 {
 		Iterator<String> iterator_obj = windowHandles.iterator();
 		String iterator__Window_1 = iterator_obj.next();
 		String iterator__Window_2 = iterator_obj.next();
+		
 		driver.switchTo().window(iterator__Window_2);
+		
 		Thread.sleep(1000);
 		driver.switchTo().window(iterator__Window_1);
 		Thread.sleep(1000);driver.switchTo().window(iterator__Window_2);
