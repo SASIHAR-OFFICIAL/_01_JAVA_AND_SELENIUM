@@ -1,4 +1,4 @@
-package _S_05_11_02_05_Open_Multiple_at_Once;
+package _S_05_11_02_06_Open_Multiple_at_Once;
 
 import java.util.Iterator;
 import java.util.List;

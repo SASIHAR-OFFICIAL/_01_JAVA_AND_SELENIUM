@@ -1,4 +1,4 @@
-package _S_05_11_02_04_Already_Opened_Window;
+package _S_05_11_02_05_Already_Opened_Window;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

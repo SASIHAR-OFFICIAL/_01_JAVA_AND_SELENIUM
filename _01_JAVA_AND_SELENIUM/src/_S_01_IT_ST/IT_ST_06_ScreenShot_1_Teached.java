@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class IT_ST_06_ScreenShot_1_Teached {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver d = new FirefoxDriver();
 		
 		d.get("http://brm.tremplintech.in/web_pages/ord_reg.aspx");
