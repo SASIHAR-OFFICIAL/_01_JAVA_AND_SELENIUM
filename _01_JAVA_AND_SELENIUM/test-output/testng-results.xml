@@ -2,94 +2,94 @@
 <testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T15:51:26 IST" name="TestNG_01 Test" finished-at="2025-05-19T15:51:31 IST" duration-ms="5137">
+  <suite started-at="2025-05-21T10:58:12 IST" name="TestNG_01 Test" finished-at="2025-05-21T10:58:32 IST" duration-ms="20648">
     <groups>
     </groups>
-    <test started-at="2025-05-19T15:51:26 IST" name="TestNG_01 Case" finished-at="2025-05-19T15:51:31 IST" duration-ms="5137">
+    <test started-at="2025-05-21T10:58:12 IST" name="TestNG_01 Case" finished-at="2025-05-21T10:58:32 IST" duration-ms="20648">
       <class name="TestNG_01._01_TestNG">
-        <test-method signature="Fifth_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-19T15:51:26 IST" name="Fifth_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="6" status="PASS">
+        <test-method signature="Fifth_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-21T10:58:12 IST" name="Fifth_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fifth_Test_Case -->
-        <test-method signature="First_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-19T15:51:26 IST" name="First_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="2" status="PASS">
+        <test-method signature="First_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-21T10:58:12 IST" name="First_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- First_Test_Case -->
-        <test-method signature="Fourth_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-19T15:51:26 IST" name="Fourth_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Fourth_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-21T10:58:12 IST" name="Fourth_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fourth_Test_Case -->
-        <test-method signature="Second_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-19T15:51:26 IST" name="Second_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Second_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-21T10:58:12 IST" name="Second_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Second_Test_Case -->
-        <test-method signature="Third_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-19T15:51:26 IST" name="Third_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="2" status="PASS">
+        <test-method signature="Third_Test_Case()[pri:0, instance:TestNG_01._01_TestNG@13c9d689]" started-at="2025-05-21T10:58:12 IST" name="Third_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Third_Test_Case -->
       </class> <!-- TestNG_01._01_TestNG -->
       <class name="TestNG_01._04_TestNG_Depends_On_Methods_02_true">
-        <test-method signature="First_Test_Case()[pri:0, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-19T15:51:26 IST" name="First_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="0" status="PASS">
+        <test-method signature="First_Test_Case()[pri:0, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-21T10:58:12 IST" name="First_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- First_Test_Case -->
-        <test-method signature="Second_Test_Case()[pri:0, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-19T15:51:26 IST" name="Second_Test_Case" finished-at="2025-05-19T15:51:26 IST" depends-on-methods="TestNG_01._04_TestNG_Depends_On_Methods_02_true.First_Test_Case" duration-ms="0" status="PASS">
+        <test-method signature="Second_Test_Case()[pri:0, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-21T10:58:12 IST" name="Second_Test_Case" finished-at="2025-05-21T10:58:12 IST" depends-on-methods="TestNG_01._04_TestNG_Depends_On_Methods_02_true.First_Test_Case" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Second_Test_Case -->
-        <test-method signature="Third_Test_Case()[pri:2, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-19T15:51:26 IST" name="Third_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Third_Test_Case()[pri:2, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-21T10:58:12 IST" name="Third_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Third_Test_Case -->
-        <test-method signature="Fourth_Test_Case()[pri:3, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-19T15:51:26 IST" name="Fourth_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Fourth_Test_Case()[pri:3, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-21T10:58:12 IST" name="Fourth_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fourth_Test_Case -->
-        <test-method signature="Fifth_Test_Case()[pri:4, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-19T15:51:26 IST" name="Fifth_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Fifth_Test_Case()[pri:4, instance:TestNG_01._04_TestNG_Depends_On_Methods_02_true@7c7a06ec]" started-at="2025-05-21T10:58:12 IST" name="Fifth_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fifth_Test_Case -->
       </class> <!-- TestNG_01._04_TestNG_Depends_On_Methods_02_true -->
       <class name="TestNG_01._02_TestNG_Set_priority">
-        <test-method signature="First_Test_Case()[pri:0, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-19T15:51:26 IST" name="First_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="First_Test_Case()[pri:0, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-21T10:58:12 IST" name="First_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- First_Test_Case -->
-        <test-method signature="Second_Test_Case()[pri:1, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-19T15:51:26 IST" name="Second_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Second_Test_Case()[pri:1, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-21T10:58:12 IST" name="Second_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Second_Test_Case -->
-        <test-method signature="Third_Test_Case()[pri:2, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-19T15:51:26 IST" name="Third_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="0" status="PASS">
+        <test-method signature="Third_Test_Case()[pri:2, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-21T10:58:12 IST" name="Third_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Third_Test_Case -->
-        <test-method signature="Fourth_Test_Case()[pri:3, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-19T15:51:26 IST" name="Fourth_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Fourth_Test_Case()[pri:3, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-21T10:58:12 IST" name="Fourth_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fourth_Test_Case -->
-        <test-method signature="Fifth_Test_Case()[pri:4, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-19T15:51:26 IST" name="Fifth_Test_Case" finished-at="2025-05-19T15:51:26 IST" duration-ms="1" status="PASS">
+        <test-method signature="Fifth_Test_Case()[pri:4, instance:TestNG_01._02_TestNG_Set_priority@5b7a5baa]" started-at="2025-05-21T10:58:12 IST" name="Fifth_Test_Case" finished-at="2025-05-21T10:58:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fifth_Test_Case -->
       </class> <!-- TestNG_01._02_TestNG_Set_priority -->
       <class name="TestNG_01._05_TestNG_Test_Suite">
-        <test-method is-config="true" signature="Open_Browser()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-19T15:51:24 IST" name="Open_Browser" finished-at="2025-05-19T15:51:26 IST" duration-ms="2412" status="PASS">
+        <test-method is-config="true" signature="Open_Browser()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-21T10:58:09 IST" name="Open_Browser" finished-at="2025-05-21T10:58:12 IST" duration-ms="2393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_Browser -->
-        <test-method signature="BING()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-19T15:51:26 IST" name="BING" finished-at="2025-05-19T15:51:27 IST" duration-ms="454" status="PASS">
+        <test-method signature="BING()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-21T10:58:12 IST" name="BING" finished-at="2025-05-21T10:58:13 IST" duration-ms="1039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BING -->
-        <test-method signature="bbc()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-19T15:51:27 IST" name="bbc" finished-at="2025-05-19T15:51:31 IST" duration-ms="3716" status="PASS">
+        <test-method signature="bbc()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-21T10:58:13 IST" name="bbc" finished-at="2025-05-21T10:58:25 IST" duration-ms="12223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bbc -->
-        <test-method signature="google()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-19T15:51:31 IST" name="google" finished-at="2025-05-19T15:51:31 IST" duration-ms="907" status="PASS">
+        <test-method signature="google()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-21T10:58:25 IST" name="google" finished-at="2025-05-21T10:58:32 IST" duration-ms="7326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- google -->
-        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-19T15:51:32 IST" name="Close_Browser" finished-at="2025-05-19T15:51:32 IST" duration-ms="828" status="PASS">
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:TestNG_01._05_TestNG_Test_Suite@185a6e9]" started-at="2025-05-21T10:58:32 IST" name="Close_Browser" finished-at="2025-05-21T10:58:33 IST" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close_Browser -->

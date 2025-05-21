@@ -37,7 +37,8 @@ public class BSNL {
 		driver.findElement(By.xpath("//input[@id='start_fancy']")).sendKeys("96266");
 		//Thread.sleep(3000); 
 		driver.findElement(By.xpath("//*[@id=\"searchID\"]")).click();
-	
+		Thread.sleep(10000);
+		
 		//KERALA
 		driver.switchTo().newWindow(WindowType.TAB);
 		driver.navigate().to("https://cymn.bsnl.co.in/");
@@ -54,12 +55,39 @@ public class BSNL {
 		driver.findElement(By.xpath("//*[contains(text(),'KERALA')]")).click();
 		driver.findElement(By.xpath("//a[contains(text(),'Fancy Numbers(Fixed Price)')]")).click();
 		//Thread.sleep(1500);
-		WebElement elementK2 = driver.findElement(By.xpath("//select[@id=\"fancy_blk\"]"));
+		WebElement elementK2 = driver.findElement(By.xpath("//select[@id='fancy_blk']"));
 		Thread.sleep(1500);
 		Select select_objK2 = new Select(elementK2);
 		Thread.sleep(10000);
-		//select_objK2.selectByValue("1");
-		//Thread.sleep(3000);                                   
+		select_objK2.selectByValue("1");
+		Thread.sleep(3000);                                   
+		driver.findElement(By.xpath("//input[@id='start_fancy']")).sendKeys("96266");
+		//Thread.sleep(3000); 
+		driver.findElement(By.xpath("//*[@id=\"searchID\"]")).click();
+		Thread.sleep(10000);
+				
+		//CHENNAI
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.navigate().to("https://cymn.bsnl.co.in/");
+		driver.findElement(By.xpath("//*[contains(text(),'CHENNAI')]")).click();
+		WebElement elementC1 = driver.findElement(By.xpath("//*[@id=\"choosenum\"]"));
+		Select select_objC1 = new Select(elementC1);
+		select_objC1.selectByVisibleText("Search with start number");
+		driver.findElement(By.xpath("//input[@placeholder='search with start number']")).sendKeys("96266");
+		driver.findElement(By.xpath("//a[contains(text(),'Search')]")).click();
+		//CHENNAI 2
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.navigate().to("https://cymn.bsnl.co.in/");
+		Thread.sleep(1500);
+		driver.findElement(By.xpath("//*[contains(text(),'CHENNAI')]")).click();
+		driver.findElement(By.xpath("//a[contains(text(),'Fancy Numbers(Fixed Price)')]")).click();
+		//Thread.sleep(1500);
+		WebElement elementC2 = driver.findElement(By.xpath("//select[@id='fancy_blk']"));
+		Thread.sleep(1500);
+		Select select_objC2 = new Select(elementK2);
+		Thread.sleep(10000);
+		select_objC2.selectByValue("1");
+		Thread.sleep(3000);                                   
 		driver.findElement(By.xpath("//input[@id='start_fancy']")).sendKeys("96266");
 		//Thread.sleep(3000); 
 		driver.findElement(By.xpath("//*[@id=\"searchID\"]")).click();
