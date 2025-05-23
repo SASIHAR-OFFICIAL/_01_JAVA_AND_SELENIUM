@@ -1,26 +1,26 @@
-package TestNG_01;
+package _S_05_25_TestNG;
 
 import org.testng.annotations.Test;
 
-public class _02_TestNG_Set_priority {
+public class _01_TestNG {
 	
-	@Test(priority = 0)
+	@Test
 	public void First_Test_Case() {
 		System.out.println("First_Test_Case");
 	}
-	@Test(priority = 1)
+	@Test
 	public void Second_Test_Case() {
 		System.out.println("Second_Test_Case");
 	}
-	@Test(priority = 2)
+	@Test
 	public void Third_Test_Case() {
 		System.out.println("Third_Test_Case");
 	}
-	@Test(priority = 3)
+	@Test
 	public void Fourth_Test_Case() {
 		System.out.println("Fourth_Test_Case");
 	}
-	@Test(priority = 4)
+	@Test
 	public void Fifth_Test_Case() {
 		System.out.println("Fifth_Test_Case");
 	}

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_S_04_Parthasarathy.CrossBrowserScript_Parthasarthy">
+      <class name="_S_05_25_TestNG._10_TestNG_Assert">
         <methods>
-          <include name="setup"/>
-          <include name="testParameterWithXML"/>
+          <include name="Check_Equal"/>
         </methods>
-      </class> <!-- _S_04_Parthasarathy.CrossBrowserScript_Parthasarthy -->
+      </class> <!-- _S_05_25_TestNG._10_TestNG_Assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

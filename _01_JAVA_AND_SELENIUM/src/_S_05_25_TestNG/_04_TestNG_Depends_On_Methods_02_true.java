@@ -1,14 +1,14 @@
-package TestNG_01;
+package _S_05_25_TestNG;
 
 import org.testng.annotations.Test;
 
-public class _03_TestNG_Skip {
+public class _04_TestNG_Depends_On_Methods_02_true {
 	
-	@Test(priority = 0,enabled = false)
+	@Test(priority = 0,enabled = true)
 	public void First_Test_Case() {
 		System.out.println("First_Test_Case");
 	}
-	@Test(priority = 1)
+	@Test(dependsOnMethods = "First_Test_Case")
 	public void Second_Test_Case() {
 		System.out.println("Second_Test_Case");
 	}

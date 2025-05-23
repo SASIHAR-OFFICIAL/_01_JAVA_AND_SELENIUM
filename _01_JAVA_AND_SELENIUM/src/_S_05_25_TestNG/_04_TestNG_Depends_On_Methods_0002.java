@@ -1,4 +1,4 @@
-package TestNG_01;
+package _S_05_25_TestNG;
 
 import org.testng.annotations.Test;
 
