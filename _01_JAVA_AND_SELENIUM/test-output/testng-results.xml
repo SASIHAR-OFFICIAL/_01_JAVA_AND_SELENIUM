@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T16:28:39 IST" name="HRM login suite" finished-at="2025-05-24T16:29:12 IST" duration-ms="33505">
+  <suite started-at="2025-05-25T21:57:59 IST" name="HRM login suite" finished-at="2025-05-25T21:59:25 IST" duration-ms="86678">
     <groups>
     </groups>
-    <test started-at="2025-05-24T16:28:39 IST" name="HRM login Test" finished-at="2025-05-24T16:29:12 IST" duration-ms="33505">
+    <test started-at="2025-05-25T21:57:59 IST" name="HRM login Test" finished-at="2025-05-25T21:59:25 IST" duration-ms="86678">
       <class name="_S_05_26_DataDriven_TestNG1.HRM_Both_wrong">
-        <test-method signature="HRM_Both_wrong()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_Both_wrong@2b71e916]" started-at="2025-05-24T16:28:48 IST" name="HRM_Both_wrong" finished-at="2025-05-24T16:28:57 IST" duration-ms="8454" status="PASS">
+        <test-method signature="HRM_Both_wrong()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_Both_wrong@2b71e916]" started-at="2025-05-25T21:58:24 IST" name="HRM_Both_wrong" finished-at="2025-05-25T21:58:44 IST" duration-ms="20127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HRM_Both_wrong -->
       </class> <!-- _S_05_26_DataDriven_TestNG1.HRM_Both_wrong -->
       <class name="_S_05_26_DataDriven_TestNG1.HRM_User_Correct">
-        <test-method signature="HRM_User_Correct()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_User_Correct@28701274]" started-at="2025-05-24T16:29:05 IST" name="HRM_User_Correct" finished-at="2025-05-24T16:29:12 IST" duration-ms="7713" status="PASS">
+        <test-method signature="HRM_User_Correct()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_User_Correct@28701274]" started-at="2025-05-25T21:59:06 IST" name="HRM_User_Correct" finished-at="2025-05-25T21:59:25 IST" duration-ms="19664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HRM_User_Correct -->
       </class> <!-- _S_05_26_DataDriven_TestNG1.HRM_User_Correct -->
       <class name="_S_05_26_DataDriven_TestNG1.HRM_Pass_Correct">
-        <test-method signature="HRM_Pass_Correct()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_Pass_Correct@36fc695d]" started-at="2025-05-24T16:28:57 IST" name="HRM_Pass_Correct" finished-at="2025-05-24T16:29:05 IST" duration-ms="7793" status="PASS">
+        <test-method signature="HRM_Pass_Correct()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_Pass_Correct@36fc695d]" started-at="2025-05-25T21:58:44 IST" name="HRM_Pass_Correct" finished-at="2025-05-25T21:59:06 IST" duration-ms="21386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HRM_Pass_Correct -->
       </class> <!-- _S_05_26_DataDriven_TestNG1.HRM_Pass_Correct -->
       <class name="_S_05_26_DataDriven_TestNG1.HRM_Both_Correct">
-        <test-method signature="HRM_Both_Correct()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_Both_Correct@30c15d8b]" started-at="2025-05-24T16:28:39 IST" name="HRM_Both_Correct" finished-at="2025-05-24T16:28:48 IST" duration-ms="9511" status="PASS">
+        <test-method signature="HRM_Both_Correct()[pri:0, instance:_S_05_26_DataDriven_TestNG1.HRM_Both_Correct@30c15d8b]" started-at="2025-05-25T21:57:59 IST" name="HRM_Both_Correct" finished-at="2025-05-25T21:58:24 IST" duration-ms="25397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HRM_Both_Correct -->
