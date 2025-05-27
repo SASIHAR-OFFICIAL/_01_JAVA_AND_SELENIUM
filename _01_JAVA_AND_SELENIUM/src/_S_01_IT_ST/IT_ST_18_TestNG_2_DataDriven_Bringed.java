@@ -20,7 +20,7 @@ WebDriver d=new ChromeDriver();
 d.get("http://demo.automationtesting.in/Register.html");
 d.manage().window().maximize();
 Thread.sleep(2000);
-FileInputStream f=new FileInputStream("D:\\datadriventest.xls");
+FileInputStream f=new FileInputStream("C:\\WebDriver\\dd.xls");
 Workbook b=Workbook.getWorkbook(f);
 Sheet s=b.getSheet(0);
 int rowcount=s.getRows();

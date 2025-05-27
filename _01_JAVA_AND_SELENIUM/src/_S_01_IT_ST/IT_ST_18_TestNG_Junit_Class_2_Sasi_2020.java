@@ -30,7 +30,7 @@ public class IT_ST_18_TestNG_Junit_Class_2_Sasi_2020 {
 	  
 	  
 	  
-	  FileInputStream f=new FileInputStream("C:\\Users\\JAYASREE SASIHAR\\Desktop\\datadriven\\dd.xls");
+	  FileInputStream f=new FileInputStream("C:\\WebDriver\\dd.xls");
 		Workbook b=Workbook.getWorkbook(f);
 		Sheet s=b.getSheet(0);
 		for (int i=1;i<=4;i++)

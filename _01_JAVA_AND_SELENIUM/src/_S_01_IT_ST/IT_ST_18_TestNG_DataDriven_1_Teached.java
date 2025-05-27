@@ -3,13 +3,13 @@ package _S_01_IT_ST;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
@@ -29,7 +29,7 @@ public class IT_ST_18_TestNG_DataDriven_1_Teached {
  public void f() throws InterruptedException, BiffException, IOException {
 	   
 	  
-	  FileInputStream f=new FileInputStream("H:\\SELENIUM\\Datadriven.xls");
+	  FileInputStream f=new FileInputStream("C:\\WebDriver\\dd.xls");
 		Workbook b=Workbook.getWorkbook(f);
 		Sheet s=b.getSheet(0);
 		for (int x=1;x<=4;x++)

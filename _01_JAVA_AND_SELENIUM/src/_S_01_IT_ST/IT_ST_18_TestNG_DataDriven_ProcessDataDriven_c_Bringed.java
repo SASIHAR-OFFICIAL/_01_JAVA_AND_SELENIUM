@@ -22,7 +22,7 @@ public class IT_ST_18_TestNG_DataDriven_ProcessDataDriven_c_Bringed {
 		d.get("http://brm.tremplintech.in/web_pages/ord_reg.aspx");
 		
 		
-		 FileInputStream f= new FileInputStream("C:\\SeleniumTraining\\ddjxl1.xls");
+		 FileInputStream f= new FileInputStream("C:\\WebDriver\\dd.xls");
 		Workbook b=Workbook.getWorkbook(f);
 		Sheet s = b.getSheet(0);
 		int rowcount =s.getRows();

@@ -19,7 +19,7 @@ public class IT_ST_17_Data_Driven_1_Teached {
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.navigate().to("http://demo.automationtesting.in/Register.html");
-		FileInputStream f=new FileInputStream("D:\\Downloads\\Datadriven.xls");
+		FileInputStream f=new FileInputStream("C:\\WebDriver\\dd.xls");
 		Workbook b=Workbook.getWorkbook(f);
 		Sheet s=b.getSheet(0);
 		
