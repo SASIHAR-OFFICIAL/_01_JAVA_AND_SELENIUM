@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-27T11:51:56 IST" name="Default suite" finished-at="2025-05-27T11:52:22 IST" duration-ms="25468">
+  <suite started-at="2025-05-28T16:13:12 IST" name="Default suite" finished-at="2025-05-28T16:13:41 IST" duration-ms="28531">
     <groups>
     </groups>
-    <test started-at="2025-05-27T11:51:56 IST" name="Default test" finished-at="2025-05-27T11:52:22 IST" duration-ms="25468">
-      <class name="_S_01_IT_ST.IT_ST_18_TestNG_DataDriven_1_Teached">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:_S_01_IT_ST.IT_ST_18_TestNG_DataDriven_1_Teached@6ed3ccb2]" started-at="2025-05-27T11:51:56 IST" name="beforeTest" finished-at="2025-05-27T11:52:03 IST" duration-ms="6850" status="PASS">
+    <test started-at="2025-05-28T16:13:12 IST" name="Default test" finished-at="2025-05-28T16:13:41 IST" duration-ms="28531">
+      <class name="_S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:_S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel@4c12331b]" started-at="2025-05-28T16:13:12 IST" name="Login" data-provider="LoginData" finished-at="2025-05-28T16:13:20 IST" duration-ms="7481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:_S_01_IT_ST.IT_ST_18_TestNG_DataDriven_1_Teached@6ed3ccb2]" started-at="2025-05-27T11:52:03 IST" name="f" finished-at="2025-05-27T11:52:22 IST" duration-ms="18481" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:_S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel@4c12331b]" started-at="2025-05-28T16:13:20 IST" name="Login" data-provider="LoginData" finished-at="2025-05-28T16:13:27 IST" duration-ms="7164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:_S_01_IT_ST.IT_ST_18_TestNG_DataDriven_1_Teached@6ed3ccb2]" started-at="2025-05-27T11:52:22 IST" name="afterTest" finished-at="2025-05-27T11:52:22 IST" duration-ms="101" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:_S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel@4c12331b]" started-at="2025-05-28T16:13:27 IST" name="Login" data-provider="LoginData" finished-at="2025-05-28T16:13:34 IST" duration-ms="6878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- _S_01_IT_ST.IT_ST_18_TestNG_DataDriven_1_Teached -->
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:_S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel@4c12331b]" started-at="2025-05-28T16:13:34 IST" name="Login" data-provider="LoginData" finished-at="2025-05-28T16:13:41 IST" duration-ms="6973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- _S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
