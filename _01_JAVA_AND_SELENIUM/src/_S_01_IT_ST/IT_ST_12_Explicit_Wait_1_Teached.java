@@ -1,6 +1,7 @@
 package _S_01_IT_ST;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,9 +21,10 @@ public class IT_ST_12_Explicit_Wait_1_Teached {
 		//d.get("http://executeautomation.com/demosite/index.html?UserName=Rajkumar&Password=coolbuddy9&Login=Login");
 			
 			Thread.sleep(30000);
-			//d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-			d.manage().timeouts().implicitlyWait(05, TimeUnit.SECONDS);
-						
+	
+			d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));			
+			
+			
 			Actions a=new Actions(d);
 			WebElement moveonmenu = d.findElement(By.xpath(".//*[@id='Automation Tools']"));
 			a.moveToElement(moveonmenu).build().perform();

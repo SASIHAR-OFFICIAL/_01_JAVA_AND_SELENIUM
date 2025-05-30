@@ -18,7 +18,7 @@ public class BSNL_TRY {
 	public static void main(String[] args) throws InterruptedException {
 
 		WebDriver driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.navigate().to("https://cymn.bsnl.co.in/cymnportal/Home.do");
 
 List<WebElement> States = driver.findElements(By.xpath("//div/h3"));

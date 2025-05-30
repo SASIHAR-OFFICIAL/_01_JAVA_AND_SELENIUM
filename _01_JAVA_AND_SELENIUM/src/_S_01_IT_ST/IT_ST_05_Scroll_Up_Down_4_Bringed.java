@@ -2,6 +2,7 @@ package _S_01_IT_ST;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -29,7 +30,8 @@ public class IT_ST_05_Scroll_Up_Down_4_Bringed {
 		d.manage().window().maximize();
 		//Thread.sleep(30000);
 	
-		d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 		
 		Actions a=new Actions(d);

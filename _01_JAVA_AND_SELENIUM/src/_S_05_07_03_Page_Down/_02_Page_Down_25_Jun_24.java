@@ -1,5 +1,6 @@
 package _S_05_07_03_Page_Down;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -17,7 +18,8 @@ public class _02_Page_Down_25_Jun_24 {
 		
 		 
 	       //It will wait for maximum of 10sec for each object
-	       d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  
+	       d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	
 	    
 	       JavascriptExecutor js = (JavascriptExecutor) d;

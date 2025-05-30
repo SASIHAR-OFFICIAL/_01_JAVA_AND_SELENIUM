@@ -2,6 +2,7 @@ package _S_01_IT_ST;
 
 
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
@@ -49,7 +50,8 @@ public class IT_ST_20_MultiBrowser_TestNG_2_Sasi_2020 {
 			//If no browser passed throw exception
 			throw new Exception("Browser is not correct");
 		}
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	
 	@Test

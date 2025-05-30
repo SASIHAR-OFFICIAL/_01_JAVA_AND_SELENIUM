@@ -1,5 +1,6 @@
 package _S_05_23_2_Advanced_All;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -15,7 +16,7 @@ public class BSNL {
 
 		WebDriver driver = new FirefoxDriver();
 		driver.navigate().to("https://cymn.bsnl.co.in/cymnportal/Home.do");
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		//Andhra
 		driver.findElement(By.xpath("//*[contains(text(),'ANDHRA')]")).click();
 		WebElement element = driver.findElement(By.xpath("//*[@id=\"choosenum\"]"));

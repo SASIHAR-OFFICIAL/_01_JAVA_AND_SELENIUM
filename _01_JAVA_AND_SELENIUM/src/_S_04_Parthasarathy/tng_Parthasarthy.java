@@ -1,5 +1,6 @@
 package _S_04_Parthasarathy;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -14,7 +15,7 @@ public class tng_Parthasarthy {
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.amazon.com/");
 		d.manage().window().maximize();
-		d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		d.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("mobile");
 		Thread.sleep(3000);
 	}

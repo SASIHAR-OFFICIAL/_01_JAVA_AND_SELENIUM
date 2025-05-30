@@ -1,6 +1,7 @@
 package _S_01_IT_ST;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +20,7 @@ public class IT_ST_04_02_Select_Drop_down_Bringed {
 		WebDriver d=new ChromeDriver();
 	d.get("http://brm.tremplintech.in/web_pages/ord_reg.aspx");
 				 Thread.sleep(2000);
-				// d.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+				 d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 							 
 				 		d.findElement(By.xpath("//*[@id='txt_unam']")).sendKeys("sylix");
 				 		 	

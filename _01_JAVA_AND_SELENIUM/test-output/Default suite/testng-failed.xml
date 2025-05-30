@@ -5,7 +5,7 @@
     <classes>
       <class name="_S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel">
         <methods>
-          <include name="Login" invocation-numbers="3"/>
+          <include name="Login" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- _S_05_27_DataDriven_TestNG_EXCEL.HRM_Login_Excel -->
     </classes>

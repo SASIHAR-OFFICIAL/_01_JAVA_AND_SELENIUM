@@ -1,20 +1,27 @@
 package _S_01_IT_ST;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class IT_ST_14_Drag_and_Drop_3_Bringed {
 	public static void main(String[] args) throws InterruptedException  {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver d;
+		d = new FirefoxDriver();
 		/*d.get("http://amazon.in");
-		//d.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-		WebDriverWait wait=new WebDriverWait(d, 20);
+
+		///d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		 */
+		WebDriverWait wait=new  WebDriverWait(d, Duration.ofSeconds(10));
 		d.manage().window().maximize();
 		 JavascriptExecutor js = (JavascriptExecutor) d;
 		 js.executeScript("window.scrollBy(0,3750)", "");
@@ -27,14 +34,14 @@ public class IT_ST_14_Drag_and_Drop_3_Bringed {
 		Thread.sleep(5000);
 		d.findElement(By.xpath("//*[@id=\"search\"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/div/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h5/a/span")).click();
 		Thread.sleep(5000);
-		d.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]")).click();*/
+		d.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]")).click();
 		d= new ChromeDriver();	
 		d.get("http://demo.guru99.com/test/drag_drop.html");	
 		d.manage().window().maximize();
-		JavascriptExecutor js = (JavascriptExecutor) d;
-		js.executeScript("window.scrollBy(0,1650)", "");
+		JavascriptExecutor js2 = (JavascriptExecutor) d;
+		js2.executeScript("window.scrollBy(0,1650)", "");
 		Thread.sleep(4000);
-		js.executeScript("window.scrollBy(0,-1000)", "");
+		js2.executeScript("window.scrollBy(0,-1000)", "");
 
 		//Element which needs to drag.    		
 		WebElement From=d.findElement(By.xpath("//*[@id='credit2']/a"));	

@@ -1,5 +1,6 @@
 package _S_04_Parthasarathy;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,7 +21,7 @@ public class five_Parthasarthy {
 			WebDriver d=new ChromeDriver();
 			d.get("https://admission.upes.ac.in/applicationformstep1.aspx");
 			d.manage().window().maximize();
-			d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+			d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 			//Step 1: Basic Details
 			d.findElement(By.name("fname")).sendKeys("Rajkumar");
 			Thread.sleep(2000);

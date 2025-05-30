@@ -1,5 +1,7 @@
 package _S_01_IT_ST;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -12,7 +14,8 @@ public class IT_ST_13_Assertion_Bringed {
 		 WebDriver driver= new ChromeDriver();
 		 driver.get("https://www.softwaretestingmaterial.com");
 		 Thread.sleep(20000);
-		 //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		 //Actual title is "Software Testing Material - A site for Software Testers" 
 		 //We took title as "Software Testing Material" to make the test fail
 		 String Title = "Software Testing Material";

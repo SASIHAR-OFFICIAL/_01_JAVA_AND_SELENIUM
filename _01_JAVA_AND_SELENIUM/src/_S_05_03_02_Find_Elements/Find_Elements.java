@@ -1,5 +1,6 @@
 package _S_05_03_02_Find_Elements;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -14,7 +15,7 @@ public class Find_Elements {
 
 	public static void main(String[] args) {
 		WebDriver d = new FirefoxDriver();
-		d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		d.manage().window().maximize();
 		d.get("https://letcode.in/edit");
 

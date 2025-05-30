@@ -1,6 +1,7 @@
 package _S_01_IT_ST;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.AfterClass;
@@ -25,7 +26,7 @@ public class IT_ST_18_TestNG_Junit_Tttng_Bringed {
 		d=new ChromeDriver();
 		d.get("http://brm.tremplintech.in/web_pages/login.aspx");
 		d.manage().window().maximize();
-		d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	 }
 
 	@Test

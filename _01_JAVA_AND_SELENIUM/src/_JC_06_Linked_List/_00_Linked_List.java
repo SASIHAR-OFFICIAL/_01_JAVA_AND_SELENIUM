@@ -15,6 +15,4 @@ public class _00_Linked_List {
         System.out.println(queue.poll()); // 20
     }
 }
-	}
-
-}
+	

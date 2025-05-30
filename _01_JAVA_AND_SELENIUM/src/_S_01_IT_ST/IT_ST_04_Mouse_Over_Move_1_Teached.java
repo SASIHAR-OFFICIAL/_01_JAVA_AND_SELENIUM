@@ -1,6 +1,7 @@
 package _S_01_IT_ST;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +16,8 @@ public class IT_ST_04_Mouse_Over_Move_1_Teached {
 		WebDriver d=new ChromeDriver();
 		d.get("http://executeautomation.com/demosite/index.html?UserName=Rajkumar&Password=coolbuddy9&Login=Login");
 		d.manage().window().maximize();
-		//d.manage().timeouts().implicitlyWait(20),TimeUnit.SECONDS);
+		
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		Actions a=new Actions(d);
 		WebElement moveonmenu = d.findElement(By.xpath(".//*[@id='Automation Tools']"));
 		a.moveToElement(moveonmenu).build().perform();

@@ -2,6 +2,7 @@ package _S_04_Parthasarathy;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.AfterClass;
@@ -26,7 +27,7 @@ public class tttng_Parthasarthy {
 		d=new ChromeDriver();
 		d.get("http://brm.tremplintech.in/web_pages/login.aspx");
 		d.manage().window().maximize();
-		d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	 }
 
 	@Test

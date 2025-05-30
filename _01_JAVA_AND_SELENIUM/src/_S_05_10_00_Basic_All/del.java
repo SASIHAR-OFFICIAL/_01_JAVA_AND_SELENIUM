@@ -7,7 +7,7 @@ public class del {
 
 	public static void main(String[] args) {
 		WebDriver driver = new FirefoxDriver();
-	driver.n
+	
 
 	}
 

@@ -13,7 +13,7 @@ public class Try {
 			num =num/0;	
 			System.out.println(num);
 		}
-		catch (IN e) {
+		catch (Exception e) {
 			System.out.println(e);
 			System.out.println("hi");
 				

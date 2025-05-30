@@ -1,5 +1,6 @@
 package _S_01_IT_ST;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -48,7 +49,8 @@ public class IT_ST_15_File_Upload_Bringed {
 		System.setProperty("Webdriver.Chrome.Driver", "CC:\\WebDriver\\chromedriver\\chromedriver.exee");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.get("https://www.makemytrip.com/railways/");
         driver.findElement(By.xpath("//input[@id='fromCity']")).click();
         Thread.sleep(1000);

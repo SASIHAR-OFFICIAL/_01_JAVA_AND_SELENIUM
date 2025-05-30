@@ -1,5 +1,6 @@
 package _S_05_03_02_Find_Elements;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +14,7 @@ public class Word_Count {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver d = new FirefoxDriver();
-		d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		d.manage().window().maximize();
 		d.navigate().to("https://www.google.com/");
 		Thread.sleep(2000);

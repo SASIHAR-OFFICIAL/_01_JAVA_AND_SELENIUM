@@ -40,7 +40,8 @@ public class IT_ST_10_Doube_Click_Bringed {
 	
 	 driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
      //To maximize the browser
-	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 driver.manage().window().maximize();
      //Create an object 'action' of an Actions class
 //Thread.sleep(1000);

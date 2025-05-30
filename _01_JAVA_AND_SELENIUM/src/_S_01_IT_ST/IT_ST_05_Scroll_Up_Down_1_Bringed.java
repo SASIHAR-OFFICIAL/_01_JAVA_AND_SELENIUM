@@ -15,7 +15,7 @@ public class IT_ST_05_Scroll_Up_Down_1_Bringed {
 		FirefoxDriver d = new FirefoxDriver();
 		d.get("http://www.amazon.in");
 		//Thread.sleep(20000);
-		d.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 		
 				

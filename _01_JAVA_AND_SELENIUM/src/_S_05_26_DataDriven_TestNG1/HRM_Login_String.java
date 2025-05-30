@@ -1,4 +1,4 @@
-package _S_05_27_DataDriven_TestNG_EXCEL;
+package _S_05_26_DataDriven_TestNG1;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -19,50 +19,54 @@ import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
-public class HRM_Login_Excel {
-
-	String [][] data;
-	public String[][] Get_Excel_Data() throws BiffException, IOException {
-		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\HRM Login.xls");
-		Workbook Workbook_obj = Workbook.getWorkbook(FileInputStream_Obj);
-		Sheet Sheet_Obj = Workbook_obj.getSheet(0);
-		int rows = Sheet_Obj.getRows();
-		int columns = Sheet_Obj.getColumns();
-
-		String testDataString[][] = new String [rows-1][columns];
-		for(int i =1;i<rows;i++) {
-			for(int j =1;j<columns;j++) {
-				testDataString[i-1][j] = Sheet_Obj.getCell(j,i).getContents();
-			}
-		}
-		return testDataString;
-	}
+public class HRM_Login_String {
+	String[][] data =	{
+			{"Admin","admin123"},
+			{"admin123","Admin"},
+			{"Admin123","admin123"},
+			{"Admin1","admin123"}
+		};
 	
 	@DataProvider(name ="LoginData")
-	public String[][] Login_Data_Provider() throws BiffException, IOException{
-		data = Get_Excel_Data();
-		return data;
+	public String[][] Login_Data_Provider(){
+	return data;
 	}
-
+	
 	@Test(dataProvider ="LoginData")
 	public void Login(String userName, String Password) {
 		WebDriver driver;
-		driver = new FirefoxDriver();
+		driver =new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		WebElement User = driver.findElement(By.xpath("//input[@name='username']"));
 		User.sendKeys(userName);
-
+		
 		WebElement Pass = driver.findElement(By.xpath("//input[@type='password']"));
 		Pass.sendKeys(Password);
-
+		
 		WebElement Button = driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"));
 		Button.click();
+			}
 	}
 
-}	
+	
 
-
-
-
+//	public void Get_Excel_Data() throws BiffException, IOException {
+//		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\HRM Login.xls");
+//		Workbook Workbook_obj = Workbook.getWorkbook(FileInputStream_Obj);
+//		Sheet Sheet_Obj = Workbook_obj.getSheet(0);
+//		int rows = Sheet_Obj.getRows();
+//		int columns = Sheet_Obj.getColumns();
+//
+//		String testDataString[][] = new String [rows-1][columns];
+//		for(int i =1;i<rows;i++) {
+//			for(int j =1;j<columns;j++) {
+//				testDataString[i-1][j] = Sheet_Obj.getCell(i,j).getContents();
+//			}
+//		}
+//		return testDataString;
+//		}
+	
+	
+	
 

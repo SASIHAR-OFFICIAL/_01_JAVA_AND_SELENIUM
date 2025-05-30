@@ -1,5 +1,6 @@
 package _S_04_Parthasarathy;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
@@ -47,7 +48,7 @@ public class CrossBrowserScript_Parthasarthy {
 			//If no browser passed throw exception
 			throw new Exception("Browser is not correct");
 		}
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	
 	@Test

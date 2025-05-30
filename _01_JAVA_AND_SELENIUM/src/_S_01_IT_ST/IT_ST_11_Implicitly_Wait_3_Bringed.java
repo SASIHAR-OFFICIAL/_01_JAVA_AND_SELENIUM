@@ -1,5 +1,6 @@
 package _S_01_IT_ST;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -16,7 +17,9 @@ public class IT_ST_11_Implicitly_Wait_3_Bringed {
 		WebDriver d=new ChromeDriver();
 		d.get("http://executeautomation.com/demosite/index.html?UserName=Rajkumar&Password=coolbuddy9&Login=Login");
 		d.manage().window().maximize();
-		d.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
 		
 		
 		Actions act=new Actions(d);

@@ -1,6 +1,7 @@
 package _S_01_IT_ST;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +16,9 @@ public class IT_ST_08_Switch_To_Tabs_1_Teached {
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
 		d.get("http://executeautomation.com/demosite/index.html?UserName=Rajkumar&Password=coolbuddy9&Login=Login"); 
-		  d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+			d.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
 			Thread.sleep(3000);
 		   	      
 		  //Code to open a new link from current page to new page
