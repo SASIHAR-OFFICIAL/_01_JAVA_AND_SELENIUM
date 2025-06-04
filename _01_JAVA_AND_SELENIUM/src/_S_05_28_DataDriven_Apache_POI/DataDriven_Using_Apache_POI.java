@@ -10,10 +10,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class DataDriven_Apache_POI {
+public class DataDriven_Using_Apache_POI {
 
 	public void Read_Excel() throws IOException {
-		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\HRM Login - Copy.xlsx");
+		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");
 		Workbook workbook_Obj = new XSSFWorkbook(fileInputStream_obj);
 		Sheet sheet_obj = workbook_Obj.getSheetAt(0);
 		Iterator<Row> Row_iterator = sheet_obj.iterator();
@@ -25,8 +25,10 @@ public class DataDriven_Apache_POI {
 			while (Coloumn_iterator.hasNext()) {
 				Cell CellValue = Coloumn_iterator.next();
 				System.out.println("CellValue = "+CellValue);
+				workbook_Obj.close();
 			}		}	}
 	public static void main(String[] args) throws IOException {
-		DataDriven_Apache_POI OBJ = new DataDriven_Apache_POI();
+		DataDriven_Using_Apache_POI OBJ = new DataDriven_Using_Apache_POI();
 		OBJ.Read_Excel();
+		
 	}}

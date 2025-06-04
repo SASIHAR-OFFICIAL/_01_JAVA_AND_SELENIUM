@@ -9,7 +9,7 @@ public class _01_ChatGPT {
     public static void main(String[] args) {
 	try {
         // Load the Excel file
-        File file = new File("C:\\WebDriver\\ChatGPT.xls");
+        File file = new File("C:\\WebDriver\\TESTING FILES\\ChatGPT.xls");
         Workbook workbook = Workbook.getWorkbook(file);
 
         // Get the first sheet

@@ -13,7 +13,7 @@ public class _02_ChatGPT {
 
         try {
             // Load workbook
-            Workbook workbook = Workbook.getWorkbook(new File("C:\\WebDriver\\HRM Login.xls"));
+            Workbook workbook = Workbook.getWorkbook(new File("C:\\WebDriver\\TESTING FILES\\HRM Login.xls"));
 
             // Get sheet by name
             Sheet sheet = workbook.getSheet(sheetName);
@@ -41,7 +41,7 @@ public class _02_ChatGPT {
     }
 
     public static void main(String[] args) {
-        String filePath = "C:\\WebDriver\\HRM Login.xls";
+        String filePath = "C:\\WebDriver\\TESTING FILES\\HRM Login.xls";
         String sheetName = "Sheet1";
 
         String[][] testData = getExcelData(filePath, sheetName);
