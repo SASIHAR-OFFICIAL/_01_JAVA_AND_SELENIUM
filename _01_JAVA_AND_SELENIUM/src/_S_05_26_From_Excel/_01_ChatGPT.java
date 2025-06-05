@@ -1,4 +1,4 @@
-package _S_05_27_DataDriven_JXL_TestNG_EXCEL;
+package _S_05_26_From_Excel;
 
 import java.io.File;
 
