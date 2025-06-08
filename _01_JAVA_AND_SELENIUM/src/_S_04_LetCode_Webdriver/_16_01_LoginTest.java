@@ -1,0 +1,37 @@
+package _S_04_LetCode_Webdriver;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class _16_01_LoginTest {
+
+	public static void main(String[] args) {
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.get("https://letcode.in/");
+		driver.manage().window().maximize();
+		String email = "koushik350@gmail.com";
+		String pass = "Pass123$";
+		WebElement signIn = driver.findElement(By.linkText("Log in"));
+		signIn.click();
+		driver.findElement(By.name("email")).sendKeys(email);
+		driver.findElement(By.name("password")).sendKeys(pass);
+		driver.findElement(By.xpath("//button[text()='LOGIN']")).click();
+		// toast message
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebElement toast = driver.findElement(By.xpath("//div[@role='alertdialog']"));
+		wait.until(ExpectedConditions.invisibilityOf(toast));
+		driver.findElement(By.linkText("Sign out")).click();
+	}
+
+}
+
+
+
+
