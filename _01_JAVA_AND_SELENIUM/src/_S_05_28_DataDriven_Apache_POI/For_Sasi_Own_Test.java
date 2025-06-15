@@ -17,21 +17,21 @@ public class For_Sasi_Own_Test {
 		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy - SASI.xlsx");
 		Workbook workbook_Obj = new XSSFWorkbook(fileInputStream_obj);
 		Sheet sheet_obj = workbook_Obj.getSheetAt(0);
-		Row row = sheet_obj.getRow(3);
-		Cell cell = row.getCell(1);
-		RichTextString richStringCellValue = cell.getRichStringCellValue();
-		System.out.println(richStringCellValue);
-//		Iterator<Row> Row_iterator = sheet_obj.iterator();
-//		
-//		while(Row_iterator.hasNext()) {
-//			Row Row_Value = Row_iterator.next();
-//			Iterator<Cell> Coloumn_iterator = Row_Value.iterator();
-//			
-//			while (Coloumn_iterator.hasNext()) {
-//				Cell CellValue = Coloumn_iterator.next();
-//				System.out.println("CellValue = "+CellValue);
-//				workbook_Obj.close();
-//			}		}	
+//		Row row = sheet_obj.getRow(3);
+//		Cell cell = row.getCell(1);
+//		RichTextString richStringCellValue = cell.getRichStringCellValue();
+//		System.out.println(richStringCellValue);
+		Iterator<Row> Row_iterator = sheet_obj.iterator();
+		
+		while(Row_iterator.hasNext()) {
+			Row Row_Next = Row_iterator.next();
+			Iterator<Cell> Row_value = Row_Next.iterator();
+			
+			while (Row_value.hasNext()) {
+				Cell CellValue = Row_value.next();
+				System.out.println("CellValue = "+CellValue);
+				workbook_Obj.close();
+			}		}	
 		}
 		
 		
