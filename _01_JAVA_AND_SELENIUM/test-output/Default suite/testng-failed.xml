@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_S_05_27_DataDriven_JXL_TestNG_EXCEL.HRM_Login_Excel_Loop">
+      <class name="_S_05_26_DataDriven_TestNG1._02_HRM_Data_Inside">
         <methods>
-          <include name="Browser_Open"/>
-          <include name="Login"/>
-          <include name="Driver_Close"/>
+          <include name="HRM_User_Correct"/>
         </methods>
-      </class> <!-- _S_05_27_DataDriven_JXL_TestNG_EXCEL.HRM_Login_Excel_Loop -->
+      </class> <!-- _S_05_26_DataDriven_TestNG1._02_HRM_Data_Inside -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

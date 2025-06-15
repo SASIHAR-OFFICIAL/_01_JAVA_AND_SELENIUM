@@ -1,4 +1,4 @@
-package _S_05_26_DataDriven_TestNG1;
+package _S_05_26_DataDriven_TestNG_0;
 
 
 import java.time.Duration;

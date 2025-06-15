@@ -19,7 +19,7 @@ import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
-public class HRM_Login_String {
+public class _01_HRM_Login_String {
 	String[][] data =	{
 			{"Admin","admin123"},
 			{"admin123","Admin"},

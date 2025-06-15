@@ -22,7 +22,7 @@ import jxl.read.biff.BiffException;
 
 public class _03_HRM_Login_Excel_Individual {
 
-	String [][] data=null;
+	//String [][] data=null;
 	
 	public String[][] Get_Excel_Data() throws FileNotFoundException, IOException, BiffException {
 		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login.xls");
@@ -47,7 +47,7 @@ public class _03_HRM_Login_Excel_Individual {
 	
 	@DataProvider(name ="LoginData")
 	public String[][] Login_Data_Provider() throws BiffException, IOException{
-		data = Get_Excel_Data();
+		String [][]	data = Get_Excel_Data();
 		return data;
 	}
 
