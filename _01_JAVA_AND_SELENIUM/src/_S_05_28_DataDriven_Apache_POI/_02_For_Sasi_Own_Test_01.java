@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class For_Sasi_Own_Test_01 {
+public class _02_For_Sasi_Own_Test_01 {
 
 	public void Read_Excel() throws IOException {
 		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy - SASI.xlsx");
@@ -37,7 +37,7 @@ public class For_Sasi_Own_Test_01 {
 		
 		
 	public static void main(String[] args) throws IOException {
-		For_Sasi_Own_Test_01 OBJ = new For_Sasi_Own_Test_01();
+		_02_For_Sasi_Own_Test_01 OBJ = new _02_For_Sasi_Own_Test_01();
 		OBJ.Read_Excel();
 		
 	}

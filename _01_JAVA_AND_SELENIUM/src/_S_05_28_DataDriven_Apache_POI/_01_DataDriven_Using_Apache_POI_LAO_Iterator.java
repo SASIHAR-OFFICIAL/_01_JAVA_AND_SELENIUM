@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class DataDriven_Using_Apache_POI {
+public class _01_DataDriven_Using_Apache_POI_LAO_Iterator {
 
 	public void Read_Excel() throws IOException {
 		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");
@@ -28,7 +28,7 @@ public class DataDriven_Using_Apache_POI {
 				workbook_Obj.close();
 			}		}	}
 	public static void main(String[] args) throws IOException {
-		DataDriven_Using_Apache_POI OBJ = new DataDriven_Using_Apache_POI();
+		_01_DataDriven_Using_Apache_POI_LAO_Iterator OBJ = new _01_DataDriven_Using_Apache_POI_LAO_Iterator();
 		OBJ.Read_Excel();
 		
 	}}
