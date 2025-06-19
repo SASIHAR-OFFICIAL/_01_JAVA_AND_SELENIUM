@@ -28,6 +28,7 @@ public class _04_DataDriven_Using_Apache_POI_Using_Iterator {
 
 			while(row0_cell0.hasNext()) {
 				Cell Cell_Value = row0_cell0.next();
+				
 				DataFormatter dF = new DataFormatter();
 				String formatCellValue = dF.formatCellValue(Cell_Value);
 				System.out.println(formatCellValue);
