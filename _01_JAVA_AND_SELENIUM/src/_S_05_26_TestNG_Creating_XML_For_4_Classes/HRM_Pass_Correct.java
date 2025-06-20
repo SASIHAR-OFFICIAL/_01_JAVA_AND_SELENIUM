@@ -1,4 +1,4 @@
-package _S_05_26_DataDriven_TestNG_0;
+package _S_05_26_TestNG_Creating_XML_For_4_Classes;
 
 
 import java.time.Duration;
