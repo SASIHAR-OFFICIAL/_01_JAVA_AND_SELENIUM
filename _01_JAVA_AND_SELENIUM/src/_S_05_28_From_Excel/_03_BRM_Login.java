@@ -1,4 +1,4 @@
-package _S_05_26_From_Excel;
+package _S_05_28_From_Excel;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
-public class _03_Excel_Sasi {
+public class _03_BRM_Login {
 
 	public static void main(String[] args) throws BiffException, IOException {
 		

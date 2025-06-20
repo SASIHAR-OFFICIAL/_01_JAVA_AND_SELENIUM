@@ -1,4 +1,4 @@
-package _S_05_26_DataDriven_TestNG1;
+package _S_05_27_DataDriven_TestNG_Data_Inside;
 
 import java.io.FileInputStream;
 import java.io.IOException;

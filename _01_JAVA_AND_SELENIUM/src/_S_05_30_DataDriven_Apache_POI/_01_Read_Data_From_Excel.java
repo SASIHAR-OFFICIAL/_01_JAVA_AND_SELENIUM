@@ -1,4 +1,4 @@
-package _S_05_28_DataDriven_Apache_POI;
+package _S_05_30_DataDriven_Apache_POI;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class _01_DataDriven_Using_Apache_POI_LAO_Iterator {
+public class _01_Read_Data_From_Excel {
 
 	public void Read_Excel() throws IOException {
 		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");
@@ -28,7 +28,7 @@ public class _01_DataDriven_Using_Apache_POI_LAO_Iterator {
 				workbook_Obj.close();
 			}		}	}
 	public static void main(String[] args) throws IOException {
-		_01_DataDriven_Using_Apache_POI_LAO_Iterator OBJ = new _01_DataDriven_Using_Apache_POI_LAO_Iterator();
+		_01_Read_Data_From_Excel OBJ = new _01_Read_Data_From_Excel();
 		OBJ.Read_Excel();
 		
 	}}
