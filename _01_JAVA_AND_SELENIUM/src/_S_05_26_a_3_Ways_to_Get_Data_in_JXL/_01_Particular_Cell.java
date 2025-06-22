@@ -1,4 +1,4 @@
-package _S_05_26_a_3_Ways_to_Get_Data;
+package _S_05_26_a_3_Ways_to_Get_Data_in_JXL;
 
 import java.io.FileInputStream;
 import java.io.IOException;

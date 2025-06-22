@@ -1,11 +1,10 @@
-package _S_05_26_a_3_Ways_to_Get_Data;
+package _S_05_26_a_3_Ways_to_Get_Data_in_JXL;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Iterator;
 
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.RichTextString;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;

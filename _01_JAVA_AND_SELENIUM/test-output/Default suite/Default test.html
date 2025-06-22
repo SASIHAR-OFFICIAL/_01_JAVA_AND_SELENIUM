@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 20 16:16:53 IST 2025</td>
+<td>Started on:</td><td>Sat Jun 21 17:30:56 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (112 ms)</td>
+<tr><td>Total time:</td><td>42 seconds (42158 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,67 +76,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='_S_05_26_a_3_Ways_to_Get_Data._04_Three_Dimenstional_Array_Using_in_WebSite2.Login()'><b>Login</b><br>Test class: _S_05_26_a_3_Ways_to_Get_Data._04_Three_Dimenstional_Array_Using_in_WebSite2</td>
-<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public void _S_05_26_a_3_Ways_to_Get_Data._04_Three_Dimenstional_Array_Using_in_WebSite2.Login(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: Login([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2])
-Arguments: [([Ljava.lang.String;) [DATA 10, null, null],([Ljava.lang.String;) [null, DATA 11, null],([Ljava.lang.String;) [null, null, DATA 12]]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1042786867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1042786867'><pre>org.testng.internal.reflect.MethodMatcherException: 
-[public void _S_05_26_a_3_Ways_to_Get_Data._04_Three_Dimenstional_Array_Using_in_WebSite2.Login(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: Login([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2])
-Arguments: [([Ljava.lang.String;) [DATA 10, null, null],([Ljava.lang.String;) [null, DATA 11, null],([Ljava.lang.String;) [null, null, DATA 12]]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-	at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>_S_05_26_a_3_Ways_to_Get_Data._04_Three_Dimenstional_Array_Using_in_WebSite2@489115ef</td></tr>
+<td title='_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite.Login()'><b>Login</b><br>Test class: _S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite<br>Parameters: DATA 30, DATA 31, DATA 32</td>
+<td></td>
+<td>10</td>
+<td>_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef</td></tr>
+<tr>
+<td title='_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite.Login()'><b>Login</b><br>Test class: _S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite<br>Parameters: DATA 40, DATA 41, DATA 42</td>
+<td></td>
+<td>10</td>
+<td>_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef</td></tr>
+<tr>
+<td title='_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite.Login()'><b>Login</b><br>Test class: _S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite<br>Parameters: DATA 20, DATA 21, DATA 22</td>
+<td></td>
+<td>10</td>
+<td>_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef</td></tr>
+<tr>
+<td title='_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite.Login()'><b>Login</b><br>Test class: _S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite<br>Parameters: DATA 10, DATA 11, DATA 12</td>
+<td></td>
+<td>10</td>
+<td>_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef</td></tr>
 </table><p>
 </body>
 </html>

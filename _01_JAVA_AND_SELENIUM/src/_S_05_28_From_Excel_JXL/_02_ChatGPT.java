@@ -1,4 +1,4 @@
-package _S_05_28_From_Excel;
+package _S_05_28_From_Excel_JXL;
 
 import jxl.Workbook;
 import java.io.File;

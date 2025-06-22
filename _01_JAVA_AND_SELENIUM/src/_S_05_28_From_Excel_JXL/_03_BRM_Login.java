@@ -1,4 +1,4 @@
-package _S_05_28_From_Excel;
+package _S_05_28_From_Excel_JXL;
 
 import java.io.FileInputStream;
 import java.io.IOException;
