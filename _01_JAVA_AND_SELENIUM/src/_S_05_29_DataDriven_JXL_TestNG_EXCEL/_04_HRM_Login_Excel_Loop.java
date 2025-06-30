@@ -39,8 +39,8 @@ public class _04_HRM_Login_Excel_Loop {
 		System.out.println("columns ="+columns);
 
 		String testDataString[][] = new String [rows-1][columns]; // Creating a 2 Dimensional Matrix Array(TestData Array)
-		// rows-1 means 5-1 = 4 Heading not included to create TestData Array 
-		// columns = 2 TestData Array 	
+																	// rows-1 means 5-1 = 4 Heading not included to create TestData Array 
+																	// columns = 2 TestData Array 	
 		for(int i =1;i<rows;i++) {
 			for(int j =0;j<columns;j++) {
 				//first column, next row
@@ -50,19 +50,21 @@ public class _04_HRM_Login_Excel_Loop {
 		return testDataString;
 	}
 
+	
+	@BeforeTest
+	public void Browser_Open() {
+		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+			}
+	
+	
 	@DataProvider(name ="LoginData")
 	public String[][] Login_Data_Provider() throws BiffException, IOException{
 		data = Get_Excel_Data();
 		return data;
 	}
 
-	@BeforeTest
-	public void Browser_Open() {
-		driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		
-		
-	}
+
 	
 	@Test(dataProvider ="LoginData")
 	public void Login(String userName, String Password) {

@@ -1,97 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-21T17:30:56 IST" name="Default suite" finished-at="2025-06-21T17:31:39 IST" duration-ms="42158">
+  <suite started-at="2025-06-30T17:49:15 IST" name="Default suite" finished-at="2025-06-30T17:49:15 IST" duration-ms="29">
     <groups>
     </groups>
-    <test started-at="2025-06-21T17:30:56 IST" name="Default test" finished-at="2025-06-21T17:31:39 IST" duration-ms="42158">
-      <class name="_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite">
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef]" started-at="2025-06-21T17:30:57 IST" name="Login" data-provider="LoginData" finished-at="2025-06-21T17:31:07 IST" duration-ms="10682" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DATA 10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DATA 11]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DATA 12]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-06-30T17:49:15 IST" name="Default test" finished-at="2025-06-30T17:49:15 IST" duration-ms="29">
+      <class name="_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel">
+        <test-method signature="Login(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel@489115ef]" started-at="2025-06-30T17:49:15 IST" name="Login" data-provider="LoginData" finished-at="2025-06-30T17:49:15 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.String[] _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel.Login_Data_Provider() throws jxl.read.biff.BiffException,java.io.IOException returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.String[] _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel.Login_Data_Provider() throws jxl.read.biff.BiffException,java.io.IOException returned a null value
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef]" started-at="2025-06-21T17:31:07 IST" name="Login" data-provider="LoginData" finished-at="2025-06-21T17:31:18 IST" duration-ms="10567" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DATA 20]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DATA 21]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DATA 22]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef]" started-at="2025-06-21T17:31:18 IST" name="Login" data-provider="LoginData" finished-at="2025-06-21T17:31:28 IST" duration-ms="10375" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DATA 30]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DATA 31]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DATA 32]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:_S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite@489115ef]" started-at="2025-06-21T17:31:28 IST" name="Login" data-provider="LoginData" finished-at="2025-06-21T17:31:39 IST" duration-ms="10217" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DATA 40]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DATA 41]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[DATA 42]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- _S_05_26_a_3_Ways_to_Get_Data_in_JXL._04_Three_Dimenstional_Array_Using_in_WebSite -->
+      </class> <!-- _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
