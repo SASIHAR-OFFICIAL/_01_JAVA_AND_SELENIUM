@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
 
-import javax.swing.plaf.basic.BasicArrowButton;
-
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
@@ -19,30 +19,37 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
-public class Google_Search_From_Excel {
+public class Google_Search_From_Excel2 {
 
 	public static Object[][] SearchContent() throws IOException {
 
 		FileInputStream FIS = new FileInputStream("C:\\WebDriver\\TESTING FILES\\SEARCH.xlsx");
-		XSSFWorkbook wb = new XSSFWorkbook(FIS);
-		XSSFSheet sheet_obj = wb.getSheetAt(0);
+		//FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\Data Order in xlsx.xlsx");
+		Workbook workbook_Obj = new XSSFWorkbook(FIS);
+		Sheet sheet_obj = workbook_Obj.getSheetAt(0);
+		Row row = sheet_obj.getRow(0);
+		Cell cell = row.getCell(0);
+		System.out.println("row ="+row);
+		System.out.println("cell ="+cell);
 
-
-	    int rowCount = sheet_obj.getPhysicalNumberOfRows();
-
-        Object[][] data = new Object[rowCount][1];
-
-        for (int i = 0; i < rowCount; i++) {
-            Row row = sheet_obj.getRow(i);
-            Cell cell = row.getCell(0);
-            data[i][0] = cell.getStringCellValue();
-        }
-
-        wb.close();
-        FIS.close();
-        return data;
-    }
-
+//		RichTextString richStringCellValue = cell.getRichStringCellValue();
+//		System.out.println(richStringCellValue);
+//	}
+		Iterator<Row> Row_iterator = sheet_obj.iterator();
+		Object[][] data = new Object[1][1];
+		while(Row_iterator.hasNext()) {
+			Row Row_Next = Row_iterator.next();
+			Iterator<Cell> Row_value = Row_Next.iterator();
+			
+			while (Row_value.hasNext()) {
+				Cell CellValue = Row_value.next();
+				System.out.println("CellValue = "+CellValue);
+				workbook_Obj.close();
+				 data[0][0] = CellValue.getStringCellValue();
+		}}
+		return data;	
+		}
+		
 
 	@DataProvider(name ="SearchData")
 	public Object[][] Search_Data_Provider() throws IOException{
