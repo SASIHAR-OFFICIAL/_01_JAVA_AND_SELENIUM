@@ -28,7 +28,7 @@ public class Google_Search_From_Excel32 {
         Object[][] data = new Object[rowCount][1];  // excluding header
 
         for (int i = 1; i < rowCount; i++) {  // start from 1 to skip header
-            Row row = sheet.getRow(i);
+            Row row = sheet.getRow(i-1);
             Cell cell = row.getCell(0); // assume first column has search term
             data[i - 1][0] = (cell != null) ? cell.getStringCellValue() : "";
         }
@@ -48,7 +48,7 @@ public class Google_Search_From_Excel32 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
 
-        driver.get("https://www.google.com");
+        driver.get("https://www.bing.com/");
 
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys(searchData);
