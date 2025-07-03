@@ -54,7 +54,7 @@ public class Google_Search_From_Excel3 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
 
-        driver.get("https://www.google.com/");
+        driver.get("https://www.google.com");
 
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys(searchData);

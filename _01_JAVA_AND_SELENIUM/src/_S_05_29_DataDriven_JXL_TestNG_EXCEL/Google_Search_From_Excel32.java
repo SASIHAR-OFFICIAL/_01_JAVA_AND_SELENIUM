@@ -18,33 +18,22 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-
-public class Google_Search_From_Excel4 {
-
+public class Google_Search_From_Excel32 {
 	public static Object[][] SearchContent() throws IOException {
         FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\SEARCH.xlsx");
         Workbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheetAt(0);
 
-        int rowCount = sheet.getPhysicalNumberOfRows();
-        Iterator<Row> Row_iterator = sheet.iterator();
-        Object[][] data = new Object[rowCount][1];
+        int rowCount = sheet.getPhysicalNumberOfRows(); // total rows including header
+        Object[][] data = new Object[rowCount][1];  // excluding header
 
-        while(Row_iterator.hasNext()) {
-			Row Row_Next = Row_iterator.next();
-			Iterator<Cell> Row_value = Row_Next.iterator();
-			
-			while (Row_value.hasNext()) {
-				Cell CellValue = Row_value.next();
-				System.out.println("CellValue = "+CellValue);
-				workbook.close();
-				 data[0][0] = CellValue.getStringCellValue();
-
-            }
+        for (int i = 1; i < rowCount; i++) {  // start from 1 to skip header
+            Row row = sheet.getRow(i);
+            Cell cell = row.getCell(0); // assume first column has search term
+            data[i - 1][0] = (cell != null) ? cell.getStringCellValue() : "";
         }
 
         workbook.close();
-        fis.close();
         return data;
     }
 
@@ -59,13 +48,15 @@ public class Google_Search_From_Excel4 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
 
-        driver.get("https://www.google.com/");
+        driver.get("https://www.google.com");
 
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys(searchData);
         searchBox.submit();
 
         System.out.println("Searched for: " + searchData);
-       // driver.quit();
+
+        // Optional: Close browser
+        // driver.quit();
     }
 }

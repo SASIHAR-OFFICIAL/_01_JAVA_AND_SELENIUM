@@ -19,36 +19,38 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
-public class Google_Search_From_Excel4 {
+public class Google_Search_From_Excel31 {
 
 	public static Object[][] SearchContent() throws IOException {
         FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\SEARCH.xlsx");
         Workbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheetAt(0);
-
-        int rowCount = sheet.getPhysicalNumberOfRows();
+        int lastRowNum = sheet.getLastRowNum();
+     
+        
         Iterator<Row> Row_iterator = sheet.iterator();
-        Object[][] data = new Object[rowCount][1];
-
+        Object[][] data = new Object[lastRowNum][1];
+        
         while(Row_iterator.hasNext()) {
-			Row Row_Next = Row_iterator.next();
+        	Row Row_Next = Row_iterator.next();
+        	 Row row = sheet.getRow(0);
 			Iterator<Cell> Row_value = Row_Next.iterator();
 			
 			while (Row_value.hasNext()) {
 				Cell CellValue = Row_value.next();
 				System.out.println("CellValue = "+CellValue);
-				workbook.close();
-				 data[0][0] = CellValue.getStringCellValue();
-
-            }
-        }
-
-        workbook.close();
-        fis.close();
+				Cell cell = row.getCell(0);
+             data[1][0] = (cell != null) ? cell.getStringCellValue() : "";
+				//workbook.close();
+				
+				
+		}}
         return data;
-    }
-
-    @DataProvider(name = "SearchData")
+		}
+			
+        
+        
+   @DataProvider(name = "SearchData")
     public Object[][] Search_Data_Provider() throws IOException {
         return SearchContent();
     }
@@ -59,7 +61,7 @@ public class Google_Search_From_Excel4 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
 
-        driver.get("https://www.google.com/");
+        driver.get("https://www.google.com");
 
         WebElement searchBox = driver.findElement(By.name("q"));
         searchBox.sendKeys(searchData);
