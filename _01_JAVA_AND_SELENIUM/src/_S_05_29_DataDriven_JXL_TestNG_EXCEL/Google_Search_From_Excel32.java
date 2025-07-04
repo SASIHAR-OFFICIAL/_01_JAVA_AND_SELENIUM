@@ -25,7 +25,7 @@ public class Google_Search_From_Excel32 {
         Sheet sheet = workbook.getSheetAt(0);
 
         int rowCount = sheet.getPhysicalNumberOfRows(); // total rows including header
-        Object[][] data = new Object[rowCount][1];  // excluding header
+        Object[][] data = new Object[rowCount-1][1];  // excluding header
 
         for (int i = 1; i < rowCount; i++) {  // start from 1 to skip header
             Row row = sheet.getRow(i-1);

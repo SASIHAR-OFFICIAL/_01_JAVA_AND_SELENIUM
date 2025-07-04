@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T23:23:56 IST" name="Default suite" finished-at="2025-07-03T23:28:08 IST" duration-ms="251728">
+  <suite started-at="2025-07-04T10:20:02 IST" name="Default suite" finished-at="2025-07-04T10:20:22 IST" duration-ms="20458">
     <groups>
     </groups>
-    <test started-at="2025-07-03T23:23:56 IST" name="Default test" finished-at="2025-07-03T23:28:08 IST" duration-ms="251728">
-      <class name="_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32">
-        <test-method signature="SearchGoogle(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32@1a677343]" started-at="2025-07-03T23:23:58 IST" name="SearchGoogle" data-provider="SearchData" finished-at="2025-07-03T23:24:13 IST" duration-ms="14864" status="PASS">
+    <test started-at="2025-07-04T10:20:02 IST" name="Default test" finished-at="2025-07-04T10:20:22 IST" duration-ms="20458">
+      <class name="_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel31">
+        <test-method signature="SearchGoogle(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel31@1a677343]" started-at="2025-07-04T10:20:03 IST" name="SearchGoogle" data-provider="SearchData" finished-at="2025-07-04T10:20:07 IST" duration-ms="4056" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,91 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchGoogle -->
-        <test-method signature="SearchGoogle(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32@1a677343]" started-at="2025-07-03T23:24:13 IST" name="SearchGoogle" data-provider="SearchData" finished-at="2025-07-03T23:24:46 IST" duration-ms="32532" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ERODE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchGoogle -->
-        <test-method signature="SearchGoogle(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32@1a677343]" started-at="2025-07-03T23:24:46 IST" name="SearchGoogle" data-provider="SearchData" finished-at="2025-07-03T23:27:54 IST" duration-ms="188337" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[salem]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.34.0', revision: '2a4c61c498'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fd94a6e7-2707-4337-a336-e54a2b9a326c, get {url=https://www.bing.com/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.2, moz:accessibilityChecks: false, moz:buildID: 20250627085530, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14876, moz:profile: C:\Users\SASIHAR\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: fd94a6e7-2707-4337-a336-e54a2b9a326c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.34.0', revision: '2a4c61c498'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fd94a6e7-2707-4337-a336-e54a2b9a326c, get {url=https://www.bing.com/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.2, moz:accessibilityChecks: false, moz:buildID: 20250627085530, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14876, moz:profile: C:\Users\SASIHAR\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: fd94a6e7-2707-4337-a336-e54a2b9a326c
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
-at _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32.SearchGoogle(Google_Search_From_Excel32.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2990)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-at java.base/java.lang.Thread.run(Thread.java:1447)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchGoogle -->
-        <test-method signature="SearchGoogle(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32@1a677343]" started-at="2025-07-03T23:27:54 IST" name="SearchGoogle" data-provider="SearchData" finished-at="2025-07-03T23:28:08 IST" duration-ms="13611" status="FAIL">
+        <test-method signature="SearchGoogle(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel31@1a677343]" started-at="2025-07-04T10:20:07 IST" name="SearchGoogle" data-provider="SearchData" finished-at="2025-07-04T10:20:16 IST" duration-ms="8970" status="FAIL">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -115,7 +31,7 @@ at java.base/java.lang.Thread.run(Thread.java:1447)
             <full-stacktrace>
               <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
-at _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32.SearchGoogle(Google_Search_From_Excel32.java:54)
+at _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel31.SearchGoogle(Google_Search_From_Excel31.java:67)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -148,7 +64,53 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchGoogle -->
-      </class> <!-- _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel32 -->
+        <test-method signature="SearchGoogle(java.lang.String)[pri:0, instance:_S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel31@1a677343]" started-at="2025-07-04T10:20:16 IST" name="SearchGoogle" data-provider="SearchData" finished-at="2025-07-04T10:20:22 IST" duration-ms="6684" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel31.SearchGoogle(Google_Search_From_Excel31.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchGoogle -->
+      </class> <!-- _S_05_29_DataDriven_JXL_TestNG_EXCEL.Google_Search_From_Excel31 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -40,7 +40,7 @@ public class Google_Search_From_Excel31 {
 				Cell CellValue = Row_value.next();
 				System.out.println("CellValue = "+CellValue);
 				Cell cell = row.getCell(0);
-             data[1][0] = (cell != null) ? cell.getStringCellValue() : "";
+             data[0][0] = (cell != null) ? cell.getStringCellValue() : "";
 				//workbook.close();
 				
 				
@@ -57,15 +57,16 @@ public class Google_Search_From_Excel31 {
 
     @Test(dataProvider = "SearchData")
     public void SearchGoogle(String searchData) {
-        WebDriver driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.manage().window().maximize();
+    	 WebDriver driver = new FirefoxDriver();
+         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+         driver.manage().window().maximize();
 
-        driver.get("https://www.google.com");
+         driver.get("https://www.bing.com/");
 
-        WebElement searchBox = driver.findElement(By.name("q"));
-        searchBox.sendKeys(searchData);
-        searchBox.submit();
+         WebElement searchBox = driver.findElement(By.name("q"));
+         searchBox.sendKeys(searchData);
+         searchBox.submit();
+
 
         System.out.println("Searched for: " + searchData);
        // driver.quit();
