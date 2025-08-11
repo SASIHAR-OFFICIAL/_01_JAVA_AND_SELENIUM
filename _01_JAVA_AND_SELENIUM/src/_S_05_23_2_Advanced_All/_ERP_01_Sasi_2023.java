@@ -30,7 +30,7 @@ a.moveToElement(Dashboard).build().perform();
 
 WebElement Dashboard2 = driver.findElement(By.xpath("//*[@id=\"DashBoardAttendanceSummary.aspx\"]"));
 Dashboard2.click();
-//a.moveToElement(Dashboard2).build().perform();
+
 
 	}
 
