@@ -180,5 +180,6 @@
 	<classpathentry kind="lib" path="C:/WebDriver/Selenium-Java/Selenium-java-4.34.0/selenium-safari-driver-4.34.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/Selenium-Java/Selenium-java-4.34.0/selenium-support-4.34.0.jar"/>
 	<classpathentry kind="lib" path="C:/WebDriver/Selenium-Java/Selenium-java-4.34.0/selenium-support-4.34.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/WebDriver/htmlunit-driver-4.34.0/htmlunit-4.14.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
