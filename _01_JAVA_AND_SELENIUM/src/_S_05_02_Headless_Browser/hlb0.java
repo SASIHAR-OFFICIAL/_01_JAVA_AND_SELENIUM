@@ -1,13 +1,14 @@
 package _S_05_02_Headless_Browser;
 
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.Test;
 
-public class HeadLessBrowser {
- WebDriver driver;
+
+public class hlb0 {
+ HtmlUnitDriver driver;
  
- @Test
+@Test
  public void googleSearch() throws InterruptedException{
   driver = new HtmlUnitDriver();
   driver.get("http://google.co.in");
