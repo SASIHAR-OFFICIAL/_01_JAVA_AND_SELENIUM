@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name = "Parallel Suite" parallel ="methods" thread-count ="2">
-<test name = "Parallel Test">
-<classes>
-<class name = "_S_05_25_TestNG._09_TestNG_Parallel">
-</class>
-</classes>
-</test>
-</suite>

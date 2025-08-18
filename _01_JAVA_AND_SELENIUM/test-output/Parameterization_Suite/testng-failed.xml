@@ -3,11 +3,11 @@
 <suite name="Failed suite [Parameterization_Suite]">
   <test thread-count="5" name="Parameterization_Test(failed)">
     <classes>
-      <class name="_S_05_25_TestNG._08_TestNG_Parameterization">
+      <class name="_S_05_25_1_TestNG_LAO._08_TestNG_Parameterization">
         <methods>
           <include name="Print_Name"/>
         </methods>
-      </class> <!-- _S_05_25_TestNG._08_TestNG_Parameterization -->
+      </class> <!-- _S_05_25_1_TestNG_LAO._08_TestNG_Parameterization -->
     </classes>
   </test> <!-- Parameterization_Test(failed) -->
 </suite> <!-- Failed suite [Parameterization_Suite] -->

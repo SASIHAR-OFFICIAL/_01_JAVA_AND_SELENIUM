@@ -3,26 +3,26 @@
 <suite name="Failed suite [HRM login suite]">
   <test thread-count="5" name="HRM login Test(failed)">
     <classes>
-      <class name="_S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_Both_Correct">
+      <class name="_S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_Both_Correct">
         <methods>
           <include name="HRM_Both_Correct"/>
         </methods>
-      </class> <!-- _S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_Both_Correct -->
-      <class name="_S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_Pass_Correct">
+      </class> <!-- _S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_Both_Correct -->
+      <class name="_S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_Pass_Correct">
         <methods>
           <include name="HRM_Pass_Correct"/>
         </methods>
-      </class> <!-- _S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_Pass_Correct -->
-      <class name="_S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_Both_wrong">
+      </class> <!-- _S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_Pass_Correct -->
+      <class name="_S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_Both_wrong">
         <methods>
           <include name="HRM_Both_wrong"/>
         </methods>
-      </class> <!-- _S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_Both_wrong -->
-      <class name="_S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_User_Correct">
+      </class> <!-- _S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_Both_wrong -->
+      <class name="_S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_User_Correct">
         <methods>
           <include name="HRM_User_Correct"/>
         </methods>
-      </class> <!-- _S_05_26_TestNG_Creating_XML_For_4_Classes.HRM_User_Correct -->
+      </class> <!-- _S_05_25_2_TestNG_Creating_XML_For_4_Classes.HRM_User_Correct -->
     </classes>
   </test> <!-- HRM login Test(failed) -->
 </suite> <!-- Failed suite [HRM login suite] -->

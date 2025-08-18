@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Phone_Group_Suite">
+<test name ="Phone_Group_Test">
+<groups>
+<run>
+<include name="Apple">
+
+</include> 
+<include name="Redmi">
+
+</include> 
+
+</run>
+
+</groups>
+<classes>
+<class name =  "_S_05_25_1_TestNG_LAO._07_TestNG_Grouping"></class>
+</classes>
+</test>
+
+</suite>

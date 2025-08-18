@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name = "Parameterization_Suite">
-<test name ="Parameterization_Test">
-<parameter name = "Parameterization Name" value = "Your_Name"></parameter>
-<classes>
-<class name =  "_S_05_25_TestNG._08_TestNG_Parameterization"></class>
-</classes>
-</test>
-</suite>
