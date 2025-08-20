@@ -4,10 +4,10 @@ public class _04_VehicleOveriding_Others {
 
 	  void run(){System.out.println("Vehicle are running");}
 	  }
-	  class Bike1 extends _04_VehicleOveriding_Others {
+	  class Bike_Discover extends _04_VehicleOveriding_Others {
 	  
 	  public static void main(String args[]){
-	  Bike1 obj = new Bike1();
+		  Bike_Discover obj = new Bike_Discover();
 	  obj.run();
 	  }
 	}

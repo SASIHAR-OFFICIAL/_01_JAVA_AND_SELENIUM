@@ -1,20 +1,24 @@
-0package _S_05_02_Headless_Browser;
+package _S_05_02_Headless_Browser;
 
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class HeadLessBrowser3 {
 
-	
-		public static void main(String[] args) {
-	        HtmlUnitDriver driver = new HtmlUnitDriver(true); // enable JS
+    public static void main(String[] args) {
 
-	        driver.getBrowserVersion().setUserAgent(
-	            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
-	        );
+    	 ChromeOptions options = new ChromeOptions();
+         options.addArguments("--headless=new"); // headless mode
+         options.addArguments("--disable-gpu");
+         options.addArguments("--window-size=1920,1080");
 
-	        driver.get("https://www.google.co.in");
-	        System.out.println("Title = " + driver.getTitle());
+         WebDriver driver = new ChromeDriver(options);
 
-	        driver.quit();
-	    }
-	}
+         driver.get("https://www.google.co.in");
+         System.out.println("Title = " + driver.getTitle());
+
+         driver.quit();
+     }
+ }
+
