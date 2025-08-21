@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_S_05_02_Headless_Browser.hlb0">
+      <class name="_S_05_26_1_Get_Excel_Data_Using_JXL_LAO._04_Three_Dimenstional_Array_Using_in_WebSite">
         <methods>
-          <include name="googleSearch"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- _S_05_02_Headless_Browser.hlb0 -->
+      </class> <!-- _S_05_26_1_Get_Excel_Data_Using_JXL_LAO._04_Three_Dimenstional_Array_Using_in_WebSite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

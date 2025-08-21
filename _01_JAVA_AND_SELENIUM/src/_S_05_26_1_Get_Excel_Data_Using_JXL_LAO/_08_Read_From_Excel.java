@@ -10,9 +10,9 @@ import jxl.read.biff.BiffException;
 public class _08_Read_From_Excel {
 
 	public static void main(String[] args) throws BiffException, IOException {
-		FileInputStream FIS = new FileInputStream("C:\\WebDriver\\TESTING FILES\\II A.xls");
+		FileInputStream FIS = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook wb_obj = Workbook.getWorkbook(FIS);
-		Sheet sheet = wb_obj.getSheet(0);
+		Sheet sheet = wb_obj.getSheet("II A");
 				  
 		  int noOfRows = sheet.getRows();
 		  int noOfColumns = sheet.getColumns();

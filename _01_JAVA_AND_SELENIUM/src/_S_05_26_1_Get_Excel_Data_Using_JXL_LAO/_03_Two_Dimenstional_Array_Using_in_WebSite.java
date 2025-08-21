@@ -18,9 +18,9 @@ import jxl.read.biff.BiffException;
 public class _03_Two_Dimenstional_Array_Using_in_WebSite {
 
 	public String[][] Read_Excel() throws IOException, BiffException {
-		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\Data Order for 2 Dimensional Array.xls");
+		FileInputStream fileInputStream_obj = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook workbook_Obj = Workbook.getWorkbook(fileInputStream_obj);
-		Sheet sheet_obj = workbook_Obj.getSheet(0);
+		Sheet sheet_obj = workbook_Obj.getSheet("Data Order in 2 D Array");
 		int rows = sheet_obj.getRows();
 		int columns = sheet_obj.getColumns();
 		System.out.println("rows ="+rows);

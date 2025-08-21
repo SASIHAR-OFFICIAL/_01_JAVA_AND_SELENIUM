@@ -13,9 +13,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class _01_Read_Data_From_Excel {
 
 	public void Read_Excel() throws IOException {
-		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login - Copy.xlsx");
+		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		Workbook workbook_Obj = new XSSFWorkbook(fileInputStream_obj);
-		Sheet sheet_obj = workbook_Obj.getSheetAt(0);
+		Sheet sheet_obj = workbook_Obj.getSheet("HRM Login - Copy");
 		Iterator<Row> Row_iterator = sheet_obj.iterator();
 		
 		while(Row_iterator.hasNext()) {

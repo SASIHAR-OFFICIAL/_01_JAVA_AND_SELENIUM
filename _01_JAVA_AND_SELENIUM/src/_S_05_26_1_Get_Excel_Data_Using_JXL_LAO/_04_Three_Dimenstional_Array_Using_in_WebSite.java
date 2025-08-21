@@ -21,9 +21,9 @@ import jxl.read.biff.BiffException;
 public class _04_Three_Dimenstional_Array_Using_in_WebSite {
 
 	public String[][] Read_Excel() throws IOException, BiffException {
-		 FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\Data Order for 3 Dimensional Array.xls");
+		 FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 	        Workbook workbook = Workbook.getWorkbook(fis);
-	        Sheet sheet = workbook.getSheet(0);
+	        Sheet sheet = workbook.getSheet("Data Order in 3 D Array");
 	        int rows = sheet.getRows();
 	        int columns = sheet.getColumns();
 	        System.out.println("rows ="+rows);

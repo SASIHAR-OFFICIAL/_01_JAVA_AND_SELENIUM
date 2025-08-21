@@ -23,10 +23,10 @@ public class Google_Search_From_Excel2 {
 
 	public static Object[][] SearchContent() throws IOException {
 
-		FileInputStream FIS = new FileInputStream("C:\\WebDriver\\TESTING FILES\\SEARCH.xlsx");
+		FileInputStream FIS = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		//FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\Data Order in xlsx.xlsx");
 		Workbook workbook_Obj = new XSSFWorkbook(FIS);
-		Sheet sheet_obj = workbook_Obj.getSheetAt(0);
+		Sheet sheet_obj = workbook_Obj.getSheet("SEARCH");
 		Row row = sheet_obj.getRow(0);
 		Cell cell = row.getCell(0);
 		System.out.println("row ="+row);

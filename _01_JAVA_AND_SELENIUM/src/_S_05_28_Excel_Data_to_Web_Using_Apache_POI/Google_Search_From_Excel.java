@@ -19,11 +19,10 @@ public class Google_Search_From_Excel {
 
 	public static Object[][] SearchContent() throws IOException {
 
-		FileInputStream FIS = new FileInputStream("C:\\WebDriver\\TESTING FILES\\SEARCH.xlsx");
+		FileInputStream FIS = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		XSSFWorkbook wb = new XSSFWorkbook(FIS);
-		XSSFSheet sheet_obj = wb.getSheetAt(0);
-
-
+		XSSFSheet sheet_obj = wb.getSheet("SEARCH");
+// SEARCH
 	    int rowCount = sheet_obj.getPhysicalNumberOfRows();
 
         Object[][] data = new Object[rowCount][1];

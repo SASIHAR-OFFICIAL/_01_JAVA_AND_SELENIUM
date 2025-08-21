@@ -9,11 +9,11 @@ public class _01_ChatGPT {
     public static void main(String[] args) {
 	try {
         // Load the Excel file
-        File file = new File("C:\\WebDriver\\TESTING FILES\\ChatGPT.xls");
+        File file = new File("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
         Workbook workbook = Workbook.getWorkbook(file);
 
         // Get the first sheet
-        Sheet sheet = workbook.getSheet(0);
+        Sheet sheet = workbook.getSheet("ChatGPT");
 
         // Read rows and columns
         for (int row = 1; row < sheet.getRows(); row++) {

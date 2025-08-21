@@ -11,11 +11,9 @@ public class _05_BRM_tremplintech {
 
 	public static void main(String[] args) throws BiffException, IOException {
 
-		FileInputStream FIS_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\BRM Login.xls");
+		FileInputStream FIS_obj = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook WB_ObjWorkbook = Workbook.getWorkbook(FIS_obj);
-		Sheet sheet_ObjSheet = WB_ObjWorkbook.getSheet(0);
-		
-		
+		Sheet sheet_ObjSheet = WB_ObjWorkbook.getSheet("BRM Login");
+				
 	}
-
 }

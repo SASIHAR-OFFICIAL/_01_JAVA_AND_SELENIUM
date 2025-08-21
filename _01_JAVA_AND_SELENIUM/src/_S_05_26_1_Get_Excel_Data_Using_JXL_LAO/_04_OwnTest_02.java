@@ -17,9 +17,9 @@ public class _04_OwnTest_02 {
 
 	public static void main(String[] args) throws BiffException, IOException, InterruptedException {
 		 // Load Excel file
-        FileInputStream fis = new FileInputStream(new File("C:\\WebDriver\\TESTING FILES\\BRM Login1.xls"));
+        FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
         Workbook wb = Workbook.getWorkbook(fis);
-        Sheet sh = wb.getSheet(0);   // first sheet
+        Sheet sh = wb.getSheet("BRM Login1");   
         
         // Get total rows and cols
         int rows = sh.getRows();

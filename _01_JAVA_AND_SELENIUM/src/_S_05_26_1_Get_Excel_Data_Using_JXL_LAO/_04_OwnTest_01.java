@@ -11,9 +11,9 @@ public class _04_OwnTest_01 {
 
 	public static void main(String[] args) throws BiffException, IOException {
 	
-		FileInputStream FIS = new FileInputStream("C:\\WebDriver\\TESTING FILES\\OWN TEST JXL.xls");
+		FileInputStream FIS = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook wb_Obj = Workbook.getWorkbook(FIS);
-		Sheet sheet = wb_Obj.getSheet(0);
+		Sheet sheet = wb_Obj.getSheet("OWN TEST JXL");
 		
 		int rows = sheet.getRows();
 		int columns = sheet.getColumns();

@@ -16,9 +16,9 @@ public class _05_DataDriven_Using_Apache_POI_Using_Iterator {
 
 	public static void main(String[] args) throws IOException {
 		//FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\ALL IN ONE UPDATED.xlsx");
-		FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\1 to 100.xlsx");
+		FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		XSSFWorkbook XW = new XSSFWorkbook(fis);
-		XSSFSheet XSheet = XW.getSheetAt(0);
+		XSSFSheet XSheet = XW.getSheet("1 to 100");
 
 		Iterator<Row> iterator_in_Sheet = XSheet.iterator();
 

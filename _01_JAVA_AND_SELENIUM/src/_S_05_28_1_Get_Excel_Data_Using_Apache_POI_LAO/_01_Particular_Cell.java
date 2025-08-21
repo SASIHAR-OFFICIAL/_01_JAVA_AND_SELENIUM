@@ -14,9 +14,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class _01_Particular_Cell {
 
 	public void Read_Excel() throws IOException {
-		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\Data Order in xlsx.xlsx");
+		FileInputStream fileInputStream_obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
 		Workbook workbook_Obj = new XSSFWorkbook(fileInputStream_obj);
-		Sheet sheet_obj = workbook_Obj.getSheetAt(0);
+		Sheet sheet_obj = workbook_Obj.getSheet("Data Order in xlsx");
 		Row row = sheet_obj.getRow(4);
 		Cell cell = row.getCell(2);
 		RichTextString richStringCellValue = cell.getRichStringCellValue();
