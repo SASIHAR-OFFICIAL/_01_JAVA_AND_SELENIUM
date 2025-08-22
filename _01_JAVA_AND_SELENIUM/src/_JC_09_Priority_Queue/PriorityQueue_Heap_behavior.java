@@ -1,7 +1,6 @@
 package _JC_09_Priority_Queue;
-import java.util.*;
+
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 
 public class PriorityQueue_Heap_behavior {

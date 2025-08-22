@@ -14,7 +14,7 @@ public class PriorityQueueExample {
         pq.offer(150);
         
 
-        System.out.println("PriorityQueue: " + pq);
+        System.out.println("PriorityQueueExample0: " + pq);
         
         while (!pq.isEmpty()) {
             System.out.println("Removed: " + pq.poll());

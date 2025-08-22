@@ -41,9 +41,9 @@ public class _01_HRM_Login_String {
 	
 
 //	public void Get_Excel_Data() throws BiffException, IOException {
-//		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\HRM Login.xls");
+//		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLS FILES.xlsx");
 //		Workbook Workbook_obj = Workbook.getWorkbook(FileInputStream_Obj);
-//		Sheet Sheet_Obj = Workbook_obj.getSheet(0);
+//		Sheet Sheet_Obj = Workbook_obj.getSheet("HRM Login");
 //		int rows = Sheet_Obj.getRows();
 //		int columns = Sheet_Obj.getColumns();
 //

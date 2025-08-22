@@ -26,19 +26,16 @@ public class Dynamic_Tables_19_APRIL_25 {
 		int Row_Size = Rows.size();
 		System.out.println("Columns_Size ="+Row_Size);
 
-		
-
 		// Finding Column Heading and table data
 		
-		
-		WebElement th_Name1 = d.findElement(By.xpath("//*[text()='CPU']"));
+				WebElement th_Name1 = d.findElement(By.xpath("//*[text()='CPU']"));
 		String th_Name1_text1 = th_Name1.getText();
 		System.out.println("th_Name1_text1 ="+th_Name1_text1);
 		if(th_Name1_text1.equals("CPU")) {
 				
 		List<WebElement> All_CPU_usage = d.findElements(By.xpath("//tr/td[2]"));   // Getting all td[2] values (All Column values).
 
-		List<Integer> CPU_usage_list = new ArrayList<>();
+		List<Float> CPU_usage_list = new ArrayList<>();
 
 		for (WebElement webElement : All_CPU_usage) {
 			String All_CPU_usage_in_Text = webElement.getText().replace("%", "");

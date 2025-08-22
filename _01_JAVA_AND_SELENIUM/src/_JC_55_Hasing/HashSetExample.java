@@ -7,7 +7,7 @@ import java.util.*;
 public class HashSetExample {
 
 	public static void main(String[] args) {
-		 HashSetExample set = new HashSetExample();
+		 HashSet<String> set = new HashSet();
 	        set.add("Banana");
 	        set.add("Apple");
 	        set.add("Orange");

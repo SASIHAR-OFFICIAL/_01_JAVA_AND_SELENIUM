@@ -5,7 +5,7 @@ public class Encapsulation {
 	   private String idNum;
 	   private int age;
 
-	   public   int getAge() {
+	   public int getAge() {
 	      return age;
 	   }
 

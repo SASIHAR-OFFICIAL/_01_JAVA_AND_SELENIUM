@@ -11,12 +11,12 @@ public class methodclass {
 		int c=a-b;
 		System.out.println(c);
 	}
-	protected void pro() {
+	public void pro() {
 		int a=10, b=20;
 		int c=a*b;
 		System.out.println(c);
 	}
-	 void def()
+	 public void def()
 	{
 		int a=10, b=20;
 		int c=a*b;

@@ -3,12 +3,7 @@ package _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.Driver;
 import java.time.Duration;
-import java.util.Iterator;
-import java.util.concurrent.TimeUnit;
-
-import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +13,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
@@ -30,9 +24,9 @@ public class _04_HRM_Login_Excel_Loop {
 	WebDriver driver;
 
 	public String[][] Get_Excel_Data() throws FileNotFoundException, IOException, BiffException {
-		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login.xls");
+		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook Workbook_obj = Workbook.getWorkbook(FileInputStream_Obj);
-		Sheet Sheet_Obj = Workbook_obj.getSheet(0);
+		Sheet Sheet_Obj = Workbook_obj.getSheet("HRM Login");
 		int rows = Sheet_Obj.getRows();
 		int columns = Sheet_Obj.getColumns();
 		System.out.println("rows ="+rows);

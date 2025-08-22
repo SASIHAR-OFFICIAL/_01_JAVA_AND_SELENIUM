@@ -20,9 +20,9 @@ import org.testng.annotations.Test;
 
 public class Google_Search_From_Excel32 {
 	public static Object[][] SearchContent() throws IOException {
-        FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\SEARCH.xlsx");
+        FileInputStream fis = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLSX FILES.xlsx");
         Workbook workbook = new XSSFWorkbook(fis);
-        Sheet sheet = workbook.getSheetAt(0);
+        Sheet sheet = workbook.getSheet("SEARCH");
 
         int rowCount = sheet.getPhysicalNumberOfRows(); // total rows including header
         Object[][] data = new Object[rowCount-1][1];  // excluding header

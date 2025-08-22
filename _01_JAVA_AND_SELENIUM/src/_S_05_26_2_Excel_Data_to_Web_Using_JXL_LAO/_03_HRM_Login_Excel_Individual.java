@@ -20,9 +20,9 @@ public class _03_HRM_Login_Excel_Individual {
 	//String [][] data=null;
 	
 	public String[][] Get_Excel_Data() throws FileNotFoundException, IOException, BiffException {
-		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\HRM Login.xls");
+		FileInputStream FileInputStream_Obj = new FileInputStream ("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook Workbook_obj = Workbook.getWorkbook(FileInputStream_Obj);
-		Sheet Sheet_Obj = Workbook_obj.getSheet(0);
+		Sheet Sheet_Obj = Workbook_obj.getSheet("HRM Login");
 		int rows = Sheet_Obj.getRows();
 		int columns = Sheet_Obj.getColumns();
 		System.out.println("rows ="+rows);

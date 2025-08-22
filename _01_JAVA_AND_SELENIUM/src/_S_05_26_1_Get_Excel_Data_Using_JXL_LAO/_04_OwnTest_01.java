@@ -2,7 +2,6 @@ package _S_05_26_1_Get_Excel_Data_Using_JXL_LAO;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
@@ -27,7 +26,4 @@ public class _04_OwnTest_01 {
 			for (int j = 0; j < columns; j++) {
 				contents = sheet.getCell(j, i).getContents();
 				System.out.println(contents + "\t");
-			} 
-		}			
-	}
-}
+			}}}}
