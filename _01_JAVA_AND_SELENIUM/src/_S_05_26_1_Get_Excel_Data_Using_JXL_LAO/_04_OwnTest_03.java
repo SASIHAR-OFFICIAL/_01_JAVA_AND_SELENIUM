@@ -2,15 +2,12 @@ package _S_05_26_1_Get_Excel_Data_Using_JXL_LAO;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.concurrent.ConcurrentHashMap.KeySetView;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
@@ -31,6 +28,8 @@ public class _04_OwnTest_03 {
 		Search_Bar.sendKeys(contents);
 		Thread.sleep(3000);
 		Search_Bar.sendKeys(Keys.ENTER);
+		
+		
 
 	}
 
