@@ -1,4 +1,4 @@
-package _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO;
+package _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,7 +15,7 @@ import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
-public class _04_OwnTest_5 {
+public class _01_OwnTest {
 
 	@DataProvider(name = "DisrictSearch")
 	public static String[][] DataInExcel() throws BiffException, IOException {
