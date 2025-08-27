@@ -1,4 +1,4 @@
-package _S_05_02_Browser;
+package _S_05_02_Headless_Browser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -47,6 +47,7 @@ public String[][] Login_Data_Provider() throws BiffException, IOException{
 @Test(dataProvider ="LoginData")
 public void Login(String UserName, String Password) {
 	WebDriver driver;
+	
 	driver = new FirefoxDriver();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	driver.navigate().to("C:\\WebDriver\\TESTING FILES\\input.html");
@@ -55,8 +56,5 @@ public void Login(String UserName, String Password) {
 
 	WebElement Pass = driver.findElement(By.xpath("//*[@id=\"lname\"]"));
 	Pass.sendKeys(Password);
-
-	
-}
-}	
+}}	
 
