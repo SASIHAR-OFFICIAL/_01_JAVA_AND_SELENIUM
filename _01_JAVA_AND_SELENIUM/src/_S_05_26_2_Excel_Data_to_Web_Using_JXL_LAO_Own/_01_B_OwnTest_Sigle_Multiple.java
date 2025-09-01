@@ -22,18 +22,18 @@ public class _01_B_OwnTest_Sigle_Multiple {
 
 		FileInputStream FIS4 = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook WB_Obj4 = Workbook.getWorkbook(FIS4);
-		Sheet sheet = WB_Obj4.getSheet("SEARCH");
+		Sheet sheet = WB_Obj4.getSheet("SEARCH1");
 		int rows = sheet.getRows();
 		int columns = sheet.getColumns();
 		
 		 // Create 2D array for TestNG DataProvider
-		//String[][] contents = new String[rows][columns]; //OLD
-		String[][] contents = new String[rows][1];
+		String[][] contents = new String[rows][columns]; //OLD
+		//String[][] contents = new String[rows][1];
 		
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < columns; j++) {
-				//contents[i][j] = sheet.getCell(j, i).getContents(); //OLD
-			   contents[i][0] = sheet.getCell(0, i).getContents(); // take only 1st column
+				contents[i][j] = sheet.getCell(j, i).getContents(); //OLD
+			  // contents[i][0] = sheet.getCell(0, i).getContents(); // take only 1st column
 				System.out.println("Row " + i + " Col " + j + " = " + contents[i][0]);
 				
 			} 

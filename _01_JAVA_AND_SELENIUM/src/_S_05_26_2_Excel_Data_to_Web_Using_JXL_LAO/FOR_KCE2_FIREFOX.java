@@ -25,9 +25,9 @@ public class FOR_KCE2_FIREFOX {
 	WebDriver driver;
 
 	public String[][] Get_Excel_Data() throws FileNotFoundException, IOException, BiffException {
-		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\II A.xls");
+		FileInputStream FileInputStream_Obj = new FileInputStream("C:\\WebDriver\\TESTING FILES\\XLS FILES.xls");
 		Workbook Workbook_obj = Workbook.getWorkbook(FileInputStream_Obj);
-		Sheet Sheet_Obj = Workbook_obj.getSheet(0);
+		Sheet Sheet_Obj = Workbook_obj.getSheet("II A");
 		int rows = Sheet_Obj.getRows();
 		int columns = Sheet_Obj.getColumns();
 		System.out.println("rows ="+rows);
