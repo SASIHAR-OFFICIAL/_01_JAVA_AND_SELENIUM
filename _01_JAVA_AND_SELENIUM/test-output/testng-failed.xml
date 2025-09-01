@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._02_OwnTest">
+      <class name="_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple">
         <methods>
-          <include name="BingSearch" invocation-numbers="0 1 2 3"/>
+          <include name="BingSearch"/>
         </methods>
-      </class> <!-- _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._02_OwnTest -->
+      </class> <!-- _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
