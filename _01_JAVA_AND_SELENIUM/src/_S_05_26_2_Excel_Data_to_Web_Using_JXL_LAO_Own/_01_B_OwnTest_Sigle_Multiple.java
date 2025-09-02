@@ -26,22 +26,21 @@ public class _01_B_OwnTest_Sigle_Multiple {
 		int rows = sheet.getRows();
 		int columns = sheet.getColumns();
 		
-		 // Create 2D array for TestNG DataProvider
-		String[][] contents = new String[rows][columns]; //OLD
-		//String[][] contents = new String[rows][1];
-		
-		for (int i = 0; i < rows; i++) {
-			for (int j = 0; j < columns; j++) {
-				contents[i][j] = sheet.getCell(j, i).getContents(); //OLD
-			  // contents[i][0] = sheet.getCell(0, i).getContents(); // take only 1st column
-				System.out.println("Row " + i + " Col " + j + " = " + contents[i][0]);
-				
-			} 
-		}
-		return contents;
-	}
+
+        // Create a 2D array where each row represents one test case with one argument
+        String[][] contents = new String[rows][1];
+        
+        for (int i = 0; i < rows; i++) {
+            // Get the content of the first (and only) column in the current row
+        	for (int j = 0; j < columns; j++) {
+            contents[i][0] = sheet.getCell(j, i).getContents();
+            System.out.println("Row " + i + " = " + contents[i][0]);
+        }}
+        return contents;
+    }
 	@Test(dataProvider = "DisrictSearch")
 	public void BingSearch(String DisrictName) throws InterruptedException   {
+		
 		WebDriver driver = new FirefoxDriver();
 		driver.navigate().to("https://www.bing.com/");
 
@@ -49,6 +48,5 @@ public class _01_B_OwnTest_Sigle_Multiple {
 		Search_Bar.sendKeys(DisrictName);
 		Thread.sleep(5000);
 		Search_Bar.sendKeys(Keys.ENTER);
-	
-	}
+		}
 }

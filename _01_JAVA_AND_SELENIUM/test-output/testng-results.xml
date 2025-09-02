@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-01T12:32:53 IST" name="Default suite" finished-at="2025-09-01T12:32:53 IST" duration-ms="117">
+  <suite started-at="2025-09-02T16:13:23 IST" name="Default suite" finished-at="2025-09-02T16:13:55 IST" duration-ms="32138">
     <groups>
     </groups>
-    <test started-at="2025-09-01T12:32:53 IST" name="Default test" finished-at="2025-09-01T12:32:53 IST" duration-ms="117">
+    <test started-at="2025-09-02T16:13:23 IST" name="Default test" finished-at="2025-09-02T16:13:55 IST" duration-ms="32138">
       <class name="_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple">
-        <test-method signature="BingSearch(java.lang.String)[pri:0, instance:_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37]" started-at="2025-09-01T12:32:53 IST" name="BingSearch" data-provider="DisrictSearch" finished-at="2025-09-01T12:32:53 IST" duration-ms="85" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-[public void _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple.BingSearch(java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: BingSearch([java.lang.String arg0])
-Arguments: [(java.lang.String) COIMBATORE,(java.lang.String) ERODE,(java.lang.String) MADURAI]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple.BingSearch(java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: BingSearch([java.lang.String arg0])
-Arguments: [(java.lang.String) COIMBATORE,(java.lang.String) ERODE,(java.lang.String) MADURAI]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+        <test-method signature="BingSearch(java.lang.String)[pri:0, instance:_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37]" started-at="2025-09-02T16:13:23 IST" name="BingSearch" data-provider="DisrictSearch" finished-at="2025-09-02T16:13:31 IST" duration-ms="8061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MADURAI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BingSearch -->
+        <test-method signature="BingSearch(java.lang.String)[pri:0, instance:_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37]" started-at="2025-09-02T16:13:31 IST" name="BingSearch" data-provider="DisrictSearch" finished-at="2025-09-02T16:13:39 IST" duration-ms="7958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PALANI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BingSearch -->
+        <test-method signature="BingSearch(java.lang.String)[pri:0, instance:_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37]" started-at="2025-09-02T16:13:39 IST" name="BingSearch" data-provider="DisrictSearch" finished-at="2025-09-02T16:13:47 IST" duration-ms="7945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KANYAKUMARI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BingSearch -->
+        <test-method signature="BingSearch(java.lang.String)[pri:0, instance:_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37]" started-at="2025-09-02T16:13:47 IST" name="BingSearch" data-provider="DisrictSearch" finished-at="2025-09-02T16:13:55 IST" duration-ms="8057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[THENKASI]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BingSearch -->
