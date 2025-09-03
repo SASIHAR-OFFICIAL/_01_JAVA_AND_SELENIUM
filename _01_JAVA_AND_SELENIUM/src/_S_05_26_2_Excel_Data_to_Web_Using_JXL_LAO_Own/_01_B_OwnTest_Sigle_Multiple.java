@@ -39,6 +39,7 @@ public class _01_B_OwnTest_Sigle_Multiple {
         return contents;
     }
 	@Test(dataProvider = "DisrictSearch")
+	
 	public void BingSearch(String DisrictName) throws InterruptedException   {
 		
 		WebDriver driver = new FirefoxDriver();
