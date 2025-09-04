@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-01T12:32:53 IST" name="Default suite" finished-at="2025-09-01T12:32:53 IST" duration-ms="117">
+  <suite started-at="2025-09-01T20:36:00 IST" name="Default suite" finished-at="2025-09-01T20:36:00 IST" duration-ms="293">
     <groups>
     </groups>
-    <test started-at="2025-09-01T12:32:53 IST" name="Default test" finished-at="2025-09-01T12:32:53 IST" duration-ms="117">
+    <test started-at="2025-09-01T20:36:00 IST" name="Default test" finished-at="2025-09-01T20:36:00 IST" duration-ms="293">
       <class name="_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple">
-        <test-method signature="BingSearch(java.lang.String)[pri:0, instance:_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37]" started-at="2025-09-01T12:32:53 IST" name="BingSearch" data-provider="DisrictSearch" finished-at="2025-09-01T12:32:53 IST" duration-ms="85" status="FAIL">
+        <test-method signature="BingSearch(java.lang.String)[pri:0, instance:_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37]" started-at="2025-09-01T20:36:00 IST" name="BingSearch" data-provider="DisrictSearch" finished-at="2025-09-01T20:36:00 IST" duration-ms="211" status="FAIL">
           <exception class="org.testng.internal.reflect.MethodMatcherException">
             <message>
               <![CDATA[
