@@ -25,7 +25,7 @@ LoginButton.click();
 
 Thread.sleep(3000);
 Actions a=new Actions(driver);
-WebElement Dashboard = driver.findElement(By.xpath("/html/body/form/div[3]/div/div[2]/ul/li[8]"));
+WebElement Dashboard = driver.findElement(By.xpath("/html/body/form/div[3]/div/div[2]/ul/li[9]/a"));
 a.moveToElement(Dashboard).build().perform();
 
 WebElement Dashboard2 = driver.findElement(By.xpath("//*[@id=\"DashBoardAttendanceSummary.aspx\"]"));

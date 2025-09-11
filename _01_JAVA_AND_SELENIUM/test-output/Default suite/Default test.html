@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 03 15:49:48 IST 2025</td>
+<td>Started on:</td><td>Tue Sep 09 14:26:05 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>66 seconds (66076 ms)</td>
+<tr><td>Total time:</td><td>260 seconds (260524 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,63 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple.BingSearch()'><b>BingSearch</b><br>Test class: _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple<br>Parameters: KANYAKUMARI</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [16e273fe-703c-4365-ab09-be289c589ae5, get {url=https://www.bing.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24464, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 16e273fe-703c-4365-ab09-be289c589ae5
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:498)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:921)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1818747191", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1818747191'><pre>org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [16e273fe-703c-4365-ab09-be289c589ae5, get {url=https://www.bing.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24464, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 16e273fe-703c-4365-ab09-be289c589ae5
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:498)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:921)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+</pre></div></td>
+<td>182</td>
+<td>_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,24 +133,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple.BingSearch()'><b>BingSearch</b><br>Test class: _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple<br>Parameters: KANYAKUMARI</td>
-<td></td>
-<td>16</td>
-<td>_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37</td></tr>
-<tr>
 <td title='_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple.BingSearch()'><b>BingSearch</b><br>Test class: _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple<br>Parameters: THENKASI</td>
 <td></td>
-<td>12</td>
+<td>14</td>
 <td>_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37</td></tr>
 <tr>
 <td title='_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple.BingSearch()'><b>BingSearch</b><br>Test class: _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple<br>Parameters: MADURAI</td>
 <td></td>
-<td>17</td>
+<td>46</td>
 <td>_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37</td></tr>
 <tr>
 <td title='_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple.BingSearch()'><b>BingSearch</b><br>Test class: _S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple<br>Parameters: PALANI</td>
 <td></td>
-<td>19</td>
+<td>16</td>
 <td>_S_05_26_2_Excel_Data_to_Web_Using_JXL_LAO_Own._01_B_OwnTest_Sigle_Multiple@3bf7ca37</td></tr>
 </table><p>
 </body>
