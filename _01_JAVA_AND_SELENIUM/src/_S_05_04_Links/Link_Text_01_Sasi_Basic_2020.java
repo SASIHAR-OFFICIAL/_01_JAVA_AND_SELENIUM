@@ -12,7 +12,7 @@ public class Link_Text_01_Sasi_Basic_2020 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
+
 WebDriver d = new ChromeDriver();
 d.manage().window().maximize();
 d.get("https://www.google.co.in");
