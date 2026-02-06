@@ -11,8 +11,8 @@ public class Open_Browser_23_FireFox {
 	        options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 
 	        WebDriver d = new FirefoxDriver(options);
-	        d.get("https://www.google.com");
-	//d.navigate().to("https://cityunionbank.bank.in/branches");
+	   //     d.get("https://www.google.com");
+	d.navigate().to("https://cityunionbank.bank.in/branches");
 		
 
 	}
