@@ -8,6 +8,7 @@ public class Open_Browser_15_FireFox {
 	public static void main(String[] args) {
 		WebDriver d = new FirefoxDriver();
 		d.navigate().to("https://web.whatsapp.com/");
+		d.navigate().to("https://www.google.com/");
 
 	}
 
