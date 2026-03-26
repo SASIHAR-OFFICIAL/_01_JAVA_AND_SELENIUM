@@ -14,12 +14,12 @@ public class _01_OPEN_BROWSER_LAO_Basic {
 		System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 		WebDriver F = new FirefoxDriver();
 		F.get("https://www.google.com");
-		F.findElement(By.name("q")).sendKeys("Kovai"+Keys.ENTER);
+		//F.findElement(By.name("q")).sendKeys("Kovai"+Keys.ENTER);
 		
 		System.setProperty("Webdriver.Chrome.Driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 		WebDriver C = new ChromeDriver();
 		C.get("https://www.google.com");
-		C.findElement(By.name("q")).sendKeys("Kovai"+Keys.ENTER);
+		//C.findElement(By.name("q")).sendKeys("Kovai"+Keys.ENTER);
 						
 	}
 
