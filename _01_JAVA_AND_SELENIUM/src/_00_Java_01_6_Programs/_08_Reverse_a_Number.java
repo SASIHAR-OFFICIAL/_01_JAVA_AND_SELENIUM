@@ -2,7 +2,7 @@ package _00_Java_01_6_Programs;
 
 public class _08_Reverse_a_Number {
 	public static void main(String[] args) {
-        int number = 12345;
+        int number = 987654321;
         int reversed = 0;
 
         while (number != 0) {
