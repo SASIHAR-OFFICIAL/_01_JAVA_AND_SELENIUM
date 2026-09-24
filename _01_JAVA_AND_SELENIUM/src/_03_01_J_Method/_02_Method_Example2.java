@@ -1,4 +1,4 @@
-package _03_J_Method;
+package _03_01_J_Method;
 
 public class _02_Method_Example2 {
 

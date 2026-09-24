@@ -7,20 +7,20 @@ public class _01_Webdriver {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
+//System.setProperty("Webdriver.Chrome.Driver", "C:\\WebDriver\\chromedriver\\chromedriver.exe");
 //Start a new instance of Google Chrome
 WebDriver chromeDriver = new ChromeDriver();
 
 
 //close the Chrome instance
-chromeDriver.quit();
+//chromeDriver.quit();
 
-System.setProperty("webdriver.geko.driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
+//System.setProperty("Webdriver.Gecko.Driver", "C:\\WebDriver\\geckodriver\\geckodriver.exe");
 //Start a new instance of Firefox
-WebDriver firefoxDriver = new FirefoxDriver();
+//WebDriver firefoxDriver = new FirefoxDriver();
 
 //close the Firefox instance
-firefoxDriver.quit();
+//firefoxDriver.quit();
 
 /*/ Start a new instance of Internet Explorer
 WebDriver ieDriver = new InternetExplorerDriver();
