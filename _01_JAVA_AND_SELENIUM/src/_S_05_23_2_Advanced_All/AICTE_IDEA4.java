@@ -201,9 +201,7 @@ public class AICTE_IDEA4 {
 				WebElement Add_Participants2  = d.findElement(By.xpath("/html/body/app-root/app-institute/div/mat-drawer-container/mat-drawer-content/app-user-details/div/mat-card[1]/div[1]/button/span[2]"));
 				Thread.sleep(1000);
 				Add_Participants2.click();
-				System.out.println("Finished");
-
-	           
+					           
 	        }
 
 	        // ==============================
