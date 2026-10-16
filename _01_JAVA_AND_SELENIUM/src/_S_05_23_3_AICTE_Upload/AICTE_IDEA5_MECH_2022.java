@@ -1,4 +1,4 @@
-package _S_05_23_2_Advanced_All;
+package _S_05_23_3_AICTE_Upload;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 
-public class AICTE_IDEA4 {
+public class AICTE_IDEA5_MECH_2022 {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 
@@ -26,7 +26,7 @@ public class AICTE_IDEA4 {
         // 1. OPEN EXCEL FILE
         // ==============================
 
-		 String excelPath = "D:\\KCE\\HOD\\HARIDASS\\ALUMNI 24 AUG 26\\Alumni Details of ECE 2026 Passed Out 189 Students.xlsx";
+		 String excelPath = "C:\\WebDriver\\DELETE AICTE ALUMNI\\";
 
 	        FileInputStream fis = new FileInputStream(excelPath);
 	        Workbook workbook = new XSSFWorkbook(fis);
